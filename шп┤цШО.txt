@@ -1,0 +1,13 @@
+环境 php7.0或7.0以上 Apache/Nginx Mysql
+
+1.导入数据库magic.sql
+
+2.修改/APP/Conf/config.php 数据库配置
+
+3.程序运行目录/public
+
+前台账号 15222222222  密码 123456
+
+
+后台 /admin/login/index.html  账号 admin 密码123456
+
