@@ -28,3 +28,49 @@ footer{width: 100%;}
 .inline-flex{display: inline-flex;}
 .flex1{flex: 1;}
 select{background: none;border: 0;}
+
+input{
+    box-shadow:none; /*去除阴影*/
+    outline: none;/*聚焦input的蓝色边框*/
+    resize: none; /*textarea 禁止拖拽*/
+    border: none; /*去除边框*/
+    -webkit-appearance: none;/*常用于IOS下移除原生样式*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /*点击高亮的颜色*/
+}
+.flexbox{
+    display: flex;
+}
+.spacebetween {
+    justify-content: space-between;
+}
+.spacearound {
+    justify-content: space-around;
+}
+button{
+    border: 0;
+}
+.wrap {
+    flex-wrap:wrap
+}
+.column{
+    flex-direction:column;
+}
+.default-bor-bottom{
+    border-bottom: 1px solid #f6f7f9;
+}
+.blod{
+    font-weight: bold;
+}
+button.button_btn{
+    width: 80%;
+    height: .75rem;
+    line-height: .75rem;
+    text-align: center;
+    background-color: #10c1a5;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: inherit;
+    color: #ffffff;
+    font-size: .26rem;
+    font-weight: bold;
+}
