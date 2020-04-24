@@ -1,0 +1,1147 @@
+---------------------------------------------------------------
+[ 2019-10-24T09:49:16+08:00 ] 0.0.0.0 GET /
+[ info ] localhost/ [运行时间：0.326000s][吞吐率：3.07req/s] [内存消耗：1,415.52kb] [文件加载：74]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:49:16+08:00 ] 0.0.0.0 GET /index/publics/index.html
+[ info ] localhost/index/publics/index.html [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：1,531.81kb] [文件加载：73]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:49:27+08:00 ] 0.0.0.0 POST /index/publics/login.html
+[ info ] localhost/index/publics/login.html [运行时间：0.193000s][吞吐率：5.18req/s] [内存消耗：2,299.78kb] [文件加载：80]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/publics/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13800138000',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '13800138000' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:49:43+08:00 ] 0.0.0.0 GET /admin.pho
+[ info ] localhost/admin.pho [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：836.91kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:49:46+08:00 ] 0.0.0.0 GET /admin.php
+[ info ] localhost/admin.php [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：836.91kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:50:55+08:00 ] 0.0.0.0 GET /
+[ info ] localhost/ [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,415.18kb] [文件加载：74]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:50:55+08:00 ] 0.0.0.0 GET /index/publics/index.html
+[ info ] localhost/index/publics/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,416.96kb] [文件加载：71]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:09+08:00 ] 0.0.0.0 GET /index/publics/index.html
+[ info ] localhost/index/publics/index.html [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,417.90kb] [文件加载：71]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:10+08:00 ] 0.0.0.0 GET /index/publics/register.html
+[ info ] localhost/index/publics/register.html [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：1,533.57kb] [文件加载：73]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/publics/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\index\view\publics\register.html [ array (
+  0 => 'code',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:19+08:00 ] 0.0.0.0 GET /index/admin
+[ info ] localhost/index/admin [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：839.40kb] [文件加载：54]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:25+08:00 ] 0.0.0.0 GET /admin/admin
+[ info ] localhost/admin/admin [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,072.81kb] [文件加载：61]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:25+08:00 ] 0.0.0.0 GET /admin/login/index.html
+[ info ] localhost/admin/login/index.html [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：1,176.22kb] [文件加载：62]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] I:\1000\application\admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:51:32+08:00 ] 0.0.0.0 POST /admin/login/login.html
+[ info ] localhost/admin/login/login.html [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：2,289.05kb] [文件加载：82]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` WHERE  `manage_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:51:32+08:00 ] 0.0.0.0 GET /admin/index/index.html
+[ info ] localhost/admin/index/index.html [运行时间：0.137000s][吞吐率：7.30req/s] [内存消耗：2,580.92kb] [文件加载：91]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\admin\view\index\index.html [ array (
+  0 => 'userLevel',
+  1 => 'magic',
+  2 => 'order',
+  3 => 'user',
+  4 => 'charge_number',
+  5 => 'manage',
+  6 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `register_time` BETWEEN 1571846400 AND 1571932800 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4  AND `finish_time` < 1571846400  AND `finish_time` >= 1571760000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT count(*) as total,`level` FROM user GROUP BY `level` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT manage_power.path as url,`manage_menu`.* FROM `manage_menu` LEFT JOIN `manage_power` ON `manage_power`.`menu_id`=`manage_menu`.`id` WHERE  `manage_menu`.`level` IN ('1','2') ORDER BY `manage_menu`.`sort`  asc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:51:34+08:00 ] 0.0.0.0 GET /admin/user/magicList
+[ info ] localhost/admin/user/magicList [运行时间：0.120000s][吞吐率：8.33req/s] [内存消耗：2,665.69kb] [文件加载：92]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\admin\view\user\magic.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `um`.*,`u`.`mobile` FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` ORDER BY `um`.`create_time`  desc LIMIT 0,15 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:51:42+08:00 ] 0.0.0.0 GET /admin/user/index
+[ info ] localhost/admin/user/index [运行时间：0.117000s][吞吐率：8.55req/s] [内存消耗：2,762.67kb] [文件加载：94]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/magicList',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\admin\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:51:55+08:00 ] 0.0.0.0 GET /admin/user/edit.html?id=32706
+[ info ] localhost/admin/user/edit.html?id=32706 [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：2,615.90kb] [文件加载：89]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32706',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\admin\view\user\edit.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:01+08:00 ] 0.0.0.0 POST /admin/user/update.html?id=32706
+[ info ] localhost/admin/user/update.html?id=32706 [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：2,373.55kb] [文件加载：85]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/edit.html?id=32706',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '161',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32706',
+  'mobile' => '15222222222',
+  'nick_name' => '2a',
+  'trad_password' => '',
+  'password' => '123456',
+  'wx' => '',
+  'zfb' => '',
+  'card_name' => '',
+  'card' => '',
+  'real_name' => '张三',
+  'card_id' => '4122334545768906',
+  'is_certification' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [400]保存失败[I:\1000\application\admin\controller\User.php:296]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:07+08:00 ] 0.0.0.0 POST /admin/user/update.html?id=32706
+[ info ] localhost/admin/user/update.html?id=32706 [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,373.62kb] [文件加载：85]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/edit.html?id=32706',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '167',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32706',
+  'mobile' => '15222222222',
+  'nick_name' => '2a',
+  'trad_password' => '123456',
+  'password' => '123456',
+  'wx' => '',
+  'zfb' => '',
+  'card_name' => '',
+  'card' => '',
+  'real_name' => '张三',
+  'card_id' => '4122334545768906',
+  'is_certification' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [400]保存失败[I:\1000\application\admin\controller\User.php:296]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:11+08:00 ] 0.0.0.0 POST /admin/user/update.html?id=32706
+[ info ] localhost/admin/user/update.html?id=32706 [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,394.63kb] [文件加载：88]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/edit.html?id=32706',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '168',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32706',
+  'mobile' => '15222222222',
+  'nick_name' => '2a2',
+  'trad_password' => '123456',
+  'password' => '123456',
+  'wx' => '',
+  'zfb' => '',
+  'card_name' => '',
+  'card' => '',
+  'real_name' => '张三',
+  'card_id' => '4122334545768906',
+  'is_certification' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `nick_name` = '2a2'  WHERE  `id` = 32706 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:11+08:00 ] 0.0.0.0 GET /admin/user.html
+[ info ] localhost/admin/user.html [运行时间：0.104000s][吞吐率：9.62req/s] [内存消耗：2,571.61kb] [文件加载：92]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user/edit.html?id=32706',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] I:\1000\application\admin\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:24+08:00 ] 0.0.0.0 POST /index/publics/login.html
+[ info ] localhost/index/publics/login.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,364.71kb] [文件加载：85]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/publics/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15222222222',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '15222222222' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:26+08:00 ] 0.0.0.0 GET /index/index/index.html
+[ info ] localhost/index/index/index.html [运行时间：0.117000s][吞吐率：8.55req/s] [内存消耗：2,383.75kb] [文件加载：89]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/publics/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\1000\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:52:26+08:00 ] 0.0.0.0 GET /static/js/swiper.min.js.map
+[ info ] localhost/static/js/swiper.min.js.map [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：836.38kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:57:41+08:00 ] 0.0.0.0 GET /index/member/index
+[ info ] localhost/index/member/index [运行时间：0.142000s][吞吐率：7.04req/s] [内存消耗：2,389.29kb] [文件加载：85]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\1000\application\index\view\member\memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:57:41+08:00 ] 0.0.0.0 GET /static/js/swiper.min.js.map
+[ info ] localhost/static/js/swiper.min.js.map [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：836.38kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:57:44+08:00 ] 0.0.0.0 GET /index/member/magicbox.html
+[ info ] localhost/index/member/magicbox.html [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：2,334.53kb] [文件加载：84]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\1000\application\index\view\member\magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32706 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:57:44+08:00 ] 0.0.0.0 GET /static/js/swiper.min.js.map
+[ info ] localhost/static/js/swiper.min.js.map [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：836.38kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:57:45+08:00 ] 0.0.0.0 GET /index/member/index
+[ info ] localhost/index/member/index [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,262.72kb] [文件加载：83]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/member/magicbox.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\1000\application\index\view\member\memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:57:45+08:00 ] 0.0.0.0 GET /static/js/swiper.min.js.map
+[ info ] localhost/static/js/swiper.min.js.map [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：836.38kb] [文件加载：52]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:58:14+08:00 ] 0.0.0.0 GET /admin/index/logout.html
+[ info ] localhost/admin/index/logout.html [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：2,171.78kb] [文件加载：81]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-10-24T09:58:14+08:00 ] 0.0.0.0 GET /admin/admin/login.html
+[ info ] localhost/admin/admin/login.html [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,074.30kb] [文件加载：61]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-24T09:58:14+08:00 ] 0.0.0.0 GET /admin/login/index.html
+[ info ] localhost/admin/login/index.html [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,060.04kb] [文件加载：60]
+[ info ] [ LANG ] I:\1000\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5964cd4b8810fcc73c98618d475213f6=1568039902; ts_email=admin%40admin.com; ts_autologin=6l1btmx5q38c04wgkg08wsos4gkswk4; _ga=GA1.1.1903330159.1568881815; Hm_lvt_afc2b8bbe5afca7b1c77c05445eadd98=1569230882; PHPSESSID=0kqsc77gus02ms4ufkgt6jfe04',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/user.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] I:\1000\application\admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

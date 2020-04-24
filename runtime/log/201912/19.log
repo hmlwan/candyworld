@@ -1,0 +1,97 @@
+---------------------------------------------------------------
+[ 2019-12-19T17:44:13+08:00 ] 223.152.37.53 GET /index/publics/register.html?code=r7nuU1ro32706&nsukey=mAt%2B55E6xqTyx8hhLti%2BEQA0b%2FXVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC%2BINBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg%2BEgmJNt3jDSA3rFh%2BwGGq0UBHytILChYNV7mYcavCLc1hO%2FurQ%3D%3D
+[ info ] 103.122.92.168:9898/index/publics/register.html?code=r7nuU1ro32706&nsukey=mAt%2B55E6xqTyx8hhLti%2BEQA0b%2FXVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC%2BINBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg%2BEgmJNt3jDSA3rFh%2BwGGq0UBHytILChYNV7mYcavCLc1hO%2FurQ%3D%3D [运行时间：0.051983s][吞吐率：19.24req/s] [内存消耗：2,094.83kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'r7nuU1ro32706',
+  'nsukey' => 'mAt+55E6xqTyx8hhLti+EQA0b/XVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC+INBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg+EgmJNt3jDSA3rFh+wGGq0UBHytILChYNV7mYcavCLc1hO/urQ==',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/register.html [ array (
+  0 => 'code',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000912s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_invite_code` [ RunTime:0.002288s ]
+[ sql ] [ SQL ] SELECT * FROM `user_invite_code` WHERE  `invite_code` = 'r7nuU1ro32706' LIMIT 1 [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2019-12-19T17:44:29+08:00 ] 223.152.37.53 POST /index/publics/send.html
+[ info ] 103.122.92.168:9898/index/publics/send.html [运行时间：0.386342s][吞吐率：2.59req/s] [内存消耗：2,090.15kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '18',
+  'referer' => 'http://103.122.92.168:9898/index/publics/register.html?code=r7nuU1ro32706&nsukey=mAt%2B55E6xqTyx8hhLti%2BEQA0b%2FXVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC%2BINBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg%2BEgmJNt3jDSA3rFh%2BwGGq0UBHytILChYNV7mYcavCLc1hO%2FurQ%3D%3D',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15112189782',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001491s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002855s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '15112189782' LIMIT 1 [ RunTime:0.001128s ]
+---------------------------------------------------------------
+[ 2019-12-19T17:46:14+08:00 ] 223.152.37.53 GET /index/publics/register.html?code=r7nuU1ro32706&nsukey=mAt%2B55E6xqTyx8hhLti%2BEQA0b%2FXVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC%2BINBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg%2BEgmJNt3jDSA3rFh%2BwGGq0UBHytILChYNV7mYcavCLc1hO%2FurQ%3D%3D
+[ info ] 103.122.92.168:9898/index/publics/register.html?code=r7nuU1ro32706&nsukey=mAt%2B55E6xqTyx8hhLti%2BEQA0b%2FXVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC%2BINBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg%2BEgmJNt3jDSA3rFh%2BwGGq0UBHytILChYNV7mYcavCLc1hO%2FurQ%3D%3D [运行时间：0.033391s][吞吐率：29.95req/s] [内存消耗：2,094.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'r7nuU1ro32706',
+  'nsukey' => 'mAt+55E6xqTyx8hhLti+EQA0b/XVxiD7UesZ5MH95on7eukZIhUZdkgKp5tp7FFZqNGUfaQvshHwa5oJC+INBN6cDlHAnGXdOUwaT5fZmdxpS4cvkGAnlcq6ZCCkdURbyoDxj89QTn1rP5bDyxkDQ8omXfMIHWJc5fSg+EgmJNt3jDSA3rFh+wGGq0UBHytILChYNV7mYcavCLc1hO/urQ==',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/register.html [ array (
+  0 => 'code',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_invite_code` [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT * FROM `user_invite_code` WHERE  `invite_code` = 'r7nuU1ro32706' LIMIT 1 [ RunTime:0.000408s ]

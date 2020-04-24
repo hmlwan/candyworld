@@ -1,0 +1,417 @@
+---------------------------------------------------------------
+[ 2020-04-12T21:05:57+08:00 ] 171.212.137.228 GET /public/
+[ info ] web.4656.top/public/ [运行时间：0.156829s][吞吐率：6.38req/s] [内存消耗：1,696.70kb] [文件加载：74]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; monitor_count=39',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36/11.1.1033.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:05:57+08:00 ] 171.212.137.228 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,834.69kb] [文件加载：73]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; monitor_count=39; PHPSESSID=d451f44ff4ce2b55853a22fe338be732',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36/11.1.1033.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:02+08:00 ] 171.212.137.228 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,699.39kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; PHPSESSID=d451f44ff4ce2b55853a22fe338be732; monitor_count=40',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36/11.1.1033.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:03+08:00 ] 42.236.10.84 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,697.92kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:04+08:00 ] 180.163.220.5 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,699.62kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:15+08:00 ] 180.163.220.68 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,698.95kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:15+08:00 ] 180.163.220.68 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,699.62kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:18+08:00 ] 171.212.137.228 GET /public/index.php
+[ info ] web.4656.top/public/index.php [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,696.59kb] [文件加载：74]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; PHPSESSID=d451f44ff4ce2b55853a22fe338be732; monitor_count=41',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36/11.1.1033.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:18+08:00 ] 171.212.137.228 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.015586s][吞吐率：64.16req/s] [内存消耗：1,695.52kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; PHPSESSID=d451f44ff4ce2b55853a22fe338be732; monitor_count=41',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36/11.1.1033.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:24+08:00 ] 42.236.10.75 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.015586s][吞吐率：64.16req/s] [内存消耗：1,695.36kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:29+08:00 ] 27.115.124.6 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,696.39kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:31+08:00 ] 42.236.10.75 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,695.36kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:36+08:00 ] 27.115.124.6 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.021431s][吞吐率：46.66req/s] [内存消耗：1,695.73kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:36+08:00 ] 27.115.124.6 GET /public/index.php/index/publics/index.html
+[ info ] web.4656.top/public/index.php/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,696.39kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:45+08:00 ] 42.236.10.75 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,697.92kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:06:46+08:00 ] 42.236.10.84 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.031171s][吞吐率：32.08req/s] [内存消耗：1,698.59kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:07:04+08:00 ] 171.212.137.228 GET /public/
+[ info ] web.4656.top/public/ [运行时间：0.015586s][吞吐率：64.16req/s] [内存消耗：1,696.65kb] [文件加载：74]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; PHPSESSID=d451f44ff4ce2b55853a22fe338be732; monitor_count=45',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-12T21:07:04+08:00 ] 171.212.137.228 GET /public/index/publics/index.html
+[ info ] web.4656.top/public/index/publics/index.html [运行时间：0.015585s][吞吐率：64.16req/s] [内存消耗：1,699.03kb] [文件加载：71]
+[ info ] [ LANG ] D:\wwwroot\web.4656.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=112860290.2366204553651755500.1585646810138.7888; PHPSESSID=d451f44ff4ce2b55853a22fe338be732; monitor_count=45',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'web.4656.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\web.4656.top\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

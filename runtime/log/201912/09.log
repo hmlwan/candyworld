@@ -1,0 +1,2821 @@
+---------------------------------------------------------------
+[ 2019-12-09T08:32:41+08:00 ] 113.110.218.46 GET /admin/login/index.html
+[ info ] 103.122.92.168:9898/admin/login/index.html [运行时间：1.308567s][吞吐率：0.76req/s] [内存消耗：1,047.29kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:24+08:00 ] 183.14.90.234 POST /admin/login/login.html
+[ info ] 103.122.92.168:9898/admin/login/login.html [运行时间：0.438081s][吞吐率：2.28req/s] [内存消耗：2,271.88kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '30',
+  'host' => '103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://103.122.92.168:9898/admin/login/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001251s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.011306s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` WHERE  `manage_name` = 'admin' LIMIT 1 [ RunTime:0.012593s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:33:24+08:00 ] 183.14.90.234 GET /admin/index/index.html
+[ info ] 103.122.92.168:9898/admin/index/index.html [运行时间：0.449305s][吞吐率：2.23req/s] [内存消耗：2,380.25kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/login/index.html',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/index/index.html [ array (
+  0 => 'userLevel',
+  1 => 'magic',
+  2 => 'order',
+  3 => 'user',
+  4 => 'charge_number',
+  5 => 'manage',
+  6 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001193s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.048000s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.088507s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.111907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `register_time` BETWEEN 1575820800 AND 1575907200 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = 1 LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = -1 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002687s ]
+[ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4  AND `finish_time` < 1575820800  AND `finish_time` >= 1575734400 LIMIT 1 [ RunTime:0.002043s ]
+[ sql ] [ SQL ] SELECT count(*) as total,`level` FROM user GROUP BY `level` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 3 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_menu` [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT manage_power.path as url,`manage_menu`.* FROM `manage_menu` LEFT JOIN `manage_power` ON `manage_power`.`menu_id`=`manage_menu`.`id` WHERE  `manage_menu`.`level` IN ('1','2') ORDER BY `manage_menu`.`sort`  asc [ RunTime:0.004022s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:33:25+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.048097s][吞吐率：20.79req/s] [内存消耗：843.45kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:25+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020979s][吞吐率：47.67req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:39+08:00 ] 183.14.88.125 GET /admin/order/show
+[ info ] 103.122.92.168:9898/admin/order/show [运行时间：0.145521s][吞吐率：6.87req/s] [内存消耗：2,425.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/order/list.html [ array (
+  0 => 'list',
+  1 => 'type',
+  2 => 'manage',
+  3 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001721s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001794s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '2' LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `o`.*,`u`.`nick_name`,`u`.`mobile` FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '2' ORDER BY `create_time`  desc LIMIT 0,15 [ RunTime:0.000879s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:33:39+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.026436s][吞吐率：37.83req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:39+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.016632s][吞吐率：60.12req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:49+08:00 ] 183.14.88.125 GET /admin/order/index
+[ info ] 103.122.92.168:9898/admin/order/index [运行时间：0.060022s][吞吐率：16.66req/s] [内存消耗：2,438.84kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/order/list.html [ array (
+  0 => 'list',
+  1 => 'type',
+  2 => 'manage',
+  3 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '1' LIMIT 1 [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT `o`.*,`u`.`nick_name`,`u`.`mobile` FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '1' ORDER BY `create_time`  desc LIMIT 0,15 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:33:50+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.017777s][吞吐率：56.25req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:33:50+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.013873s][吞吐率：72.08req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:03+08:00 ] 113.110.216.129 GET /admin/index/index.html
+[ info ] 103.122.92.168:9898/admin/index/index.html [运行时间：0.055303s][吞吐率：18.08req/s] [内存消耗：2,401.80kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/index/index.html [ array (
+  0 => 'userLevel',
+  1 => 'magic',
+  2 => 'order',
+  3 => 'user',
+  4 => 'charge_number',
+  5 => 'manage',
+  6 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `register_time` BETWEEN 1575820800 AND 1575907200 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = -1 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4  AND `finish_time` < 1575820800  AND `finish_time` >= 1575734400 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT count(*) as total,`level` FROM user GROUP BY `level` [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 3 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:03+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.024598s][吞吐率：40.65req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:03+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.017368s][吞吐率：57.58req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:07+08:00 ] 183.14.88.125 GET /admin/user/magicList
+[ info ] 103.122.92.168:9898/admin/user/magicList [运行时间：0.195594s][吞吐率：5.11req/s] [内存消耗：2,465.10kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/magic.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.035655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SELECT `um`.*,`u`.`mobile` FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` ORDER BY `um`.`create_time`  desc LIMIT 0,15 [ RunTime:0.036995s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:07+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.022827s][吞吐率：43.81req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:07+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.017327s][吞吐率：57.71req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:26+08:00 ] 183.14.90.234 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.155333s][吞吐率：6.44req/s] [内存消耗：2,504.85kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.005370s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:26+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.029160s][吞吐率：34.29req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:26+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.021618s][吞吐率：46.26req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:40+08:00 ] 183.14.90.234 GET /admin/user/certification.html?id=32710
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32710 [运行时间：0.143976s][吞吐率：6.95req/s] [内存消耗：2,553.02kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32710',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.004379s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004977s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32710 LIMIT 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:41+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.025437s][吞吐率：39.31req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32710',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:41+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020219s][吞吐率：49.46req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32710',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:58+08:00 ] 183.14.90.234 POST /admin/user/certificationpass.html?id=32710&status=1
+[ info ] 103.122.92.168:9898/admin/user/certificationpass.html?id=32710&status=1 [运行时间：0.112628s][吞吐率：8.88req/s] [内存消耗：2,211.10kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '36',
+  'host' => '103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32710',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32710',
+  'status' => '1',
+  'name' => '15951255073',
+  'certification_fail' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32710 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32710 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `is_certification` = 1 , `certification_fail` = ''  WHERE  `id` = 32710 [ RunTime:0.004035s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:58+08:00 ] 183.14.90.234 GET /admin/user/certification.html?id=32710
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32710 [运行时间：0.066851s][吞吐率：14.96req/s] [内存消耗：2,402.47kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32710',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32710 LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:34:59+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.028899s][吞吐率：34.60req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32710',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:34:59+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.036586s][吞吐率：27.33req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32710',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:07+08:00 ] 113.110.218.46 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.091715s][吞吐率：10.90req/s] [内存消耗：2,504.80kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.002507s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:35:07+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.015303s][吞吐率：65.35req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:07+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.013497s][吞吐率：74.09req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:19+08:00 ] 183.14.90.19 GET /admin/user/certification.html?id=32709
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32709 [运行时间：0.047931s][吞吐率：20.86req/s] [内存消耗：2,402.45kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32709',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.000733s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:35:19+08:00 ] 183.14.90.19 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.022386s][吞吐率：44.67req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:19+08:00 ] 183.14.90.19 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.014187s][吞吐率：70.49req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:23+08:00 ] 183.14.90.19 POST /admin/user/certificationpass.html?id=32709&status=1
+[ info ] 103.122.92.168:9898/admin/user/certificationpass.html?id=32709&status=1 [运行时间：0.126875s][吞吐率：7.88req/s] [内存消耗：2,211.10kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '36',
+  'host' => '103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32709',
+  'status' => '1',
+  'name' => '17605247335',
+  'certification_fail' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001794s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `is_certification` = 1 , `certification_fail` = ''  WHERE  `id` = 32709 [ RunTime:0.005395s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:35:23+08:00 ] 183.14.90.19 GET /admin/user/certification.html?id=32709
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32709 [运行时间：0.053757s][吞吐率：18.60req/s] [内存消耗：2,402.47kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32709',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:35:24+08:00 ] 183.14.90.19 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.026850s][吞吐率：37.24req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:24+08:00 ] 183.14.90.19 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018481s][吞吐率：54.11req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:31+08:00 ] 183.14.90.234 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.090958s][吞吐率：10.99req/s] [内存消耗：2,504.82kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001974s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:35:32+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.025448s][吞吐率：39.30req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:35:32+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018810s][吞吐率：53.16req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:01+08:00 ] 113.110.218.46 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.217101s][吞吐率：4.61req/s] [内存消耗：2,504.82kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002153s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001729s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.002576s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:37:02+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.022890s][吞吐率：43.69req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:02+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018137s][吞吐率：55.14req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:19+08:00 ] 113.110.218.46 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.083611s][吞吐率：11.96req/s] [内存消耗：2,504.82kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:37:19+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020477s][吞吐率：48.84req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:20+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018220s][吞吐率：54.88req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:48+08:00 ] 183.14.88.125 GET /admin/user/certification.html?id=32709
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32709 [运行时间：0.049812s][吞吐率：20.08req/s] [内存消耗：2,402.47kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32709',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:37:48+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020734s][吞吐率：48.23req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:48+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.019080s][吞吐率：52.41req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:51+08:00 ] 113.110.218.46 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.096525s][吞吐率：10.36req/s] [内存消耗：2,504.82kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001935s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:37:51+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.021280s][吞吐率：46.99req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:37:51+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.016171s][吞吐率：61.84req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:38:11+08:00 ] 183.14.90.234 GET /admin/user/certification.html?id=32709
+[ info ] 103.122.92.168:9898/admin/user/certification.html?id=32709 [运行时间：0.064574s][吞吐率：15.49req/s] [内存消耗：2,402.47kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32709',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/certification.html [ array (
+  0 => 'info',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32709 LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:38:11+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020726s][吞吐率：48.25req/s] [内存消耗：832.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:38:11+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.015203s][吞吐率：65.78req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:38:17+08:00 ] 113.110.216.129 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.101287s][吞吐率：9.87req/s] [内存消耗：2,504.82kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/certification.html?id=32709',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000869s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.002275s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:38:17+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018501s][吞吐率：54.05req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:38:17+08:00 ] 113.110.216.129 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.018172s][吞吐率：55.03req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:39:16+08:00 ] 113.110.218.46 GET /admin/config/index
+[ info ] 103.122.92.168:9898/admin/config/index [运行时间：0.104247s][吞吐率：9.59req/s] [内存消耗：2,358.25kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/config/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014703s ]
+[ sql ] [ SQL ] SELECT * FROM `config` WHERE  `type` = 1 [ RunTime:0.021485s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:39:16+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.031464s][吞吐率：31.78req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/config/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:39:16+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.021313s][吞吐率：46.92req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/config/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:39:44+08:00 ] 183.14.88.125 GET /admin/user/index
+[ info ] 103.122.92.168:9898/admin/user/index [运行时间：0.117249s][吞吐率：8.53req/s] [内存消耗：2,504.90kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/config/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003952s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.004673s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002085s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `u`.*,`c`.`invite_code` FROM `user` `u` LEFT JOIN `user_invite_code` `c` ON `u`.`id`=`c`.`user_id` ORDER BY `u`.`register_time`  desc LIMIT 0,15 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32699 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`mobile` FROM `user` WHERE  `id` = 32698 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32700) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32699,32701,32700,32702) [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:39:44+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.026471s][吞吐率：37.78req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:39:44+08:00 ] 183.14.88.125 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.019081s][吞吐率：52.41req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:06+08:00 ] 113.110.218.46 GET /admin/order/show
+[ info ] 103.122.92.168:9898/admin/order/show [运行时间：0.069039s][吞吐率：14.48req/s] [内存消耗：2,425.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/order/list.html [ array (
+  0 => 'list',
+  1 => 'type',
+  2 => 'manage',
+  3 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.004675s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '2' LIMIT 1 [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT `o`.*,`u`.`nick_name`,`u`.`mobile` FROM `orders` `o` LEFT JOIN `user` `u` ON `u`.`id`=`o`.`user_id` WHERE  `o`.`types` = '2' ORDER BY `create_time`  desc LIMIT 0,15 [ RunTime:0.001222s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:40:06+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.022815s][吞吐率：43.83req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:06+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.016457s][吞吐率：60.76req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:22+08:00 ] 183.14.90.234 GET /admin/manage/index
+[ info ] 103.122.92.168:9898/admin/manage/index [运行时间：0.109494s][吞吐率：9.13req/s] [内存消耗：2,381.68kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/order/show',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/manage/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_user` LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` LIMIT 0,15 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:40:22+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.025208s][吞吐率：39.67req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/manage/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:22+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.017534s][吞吐率：57.03req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/manage/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:34+08:00 ] 113.110.218.46 GET /admin/group/index
+[ info ] 103.122.92.168:9898/admin/group/index [运行时间：0.172525s][吞吐率：5.80req/s] [内存消耗：2,363.84kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/manage/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/group/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001612s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_group` LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` LIMIT 0,15 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:40:34+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.023876s][吞吐率：41.88req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/group/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:34+08:00 ] 113.110.218.46 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.022687s][吞吐率：44.08req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/group/index',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:45+08:00 ] 183.14.90.234 GET /admin/user/magicList
+[ info ] 103.122.92.168:9898/admin/user/magicList [运行时间：0.077417s][吞吐率：12.92req/s] [内存消耗：2,465.10kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/group/index',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/magic.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.002305s ]
+[ sql ] [ SQL ] SELECT `um`.*,`u`.`mobile` FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` ORDER BY `um`.`create_time`  desc LIMIT 0,15 [ RunTime:0.006518s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:40:45+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.019635s][吞吐率：50.93req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:45+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020083s][吞吐率：49.79req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:48+08:00 ] 183.14.90.234 GET /admin/index/index.html
+[ info ] 103.122.92.168:9898/admin/index/index.html [运行时间：0.075016s][吞吐率：13.33req/s] [内存消耗：2,401.80kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/user/magicList',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/index/index.html [ array (
+  0 => 'userLevel',
+  1 => 'magic',
+  2 => 'order',
+  3 => 'user',
+  4 => 'charge_number',
+  5 => 'manage',
+  6 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001889s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `register_time` BETWEEN 1575820800 AND 1575907200 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = 1 LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = -1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4  AND `finish_time` < 1575820800  AND `finish_time` >= 1575734400 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT count(*) as total,`level` FROM user GROUP BY `level` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.002335s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 3 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-12-09T08:40:49+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.020381s][吞吐率：49.07req/s] [内存消耗：832.63kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:40:49+08:00 ] 183.14.90.234 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] 103.122.92.168:9898/admin/fonts/fontawesome-webfont.eot? [运行时间：0.016688s][吞吐率：59.92req/s] [内存消耗：829.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://103.122.92.168:9898',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/admin/index/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:41:18+08:00 ] 183.14.90.19 GET /
+[ info ] 103.122.92.168:9898/ [运行时间：0.095412s][吞吐率：10.48req/s] [内存消耗：1,405.03kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://zzjie.com/url/?http://103.122.92.168:9898',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T08:41:18+08:00 ] 183.14.90.19 GET /index/publics/index.html
+[ info ] 103.122.92.168:9898/index/publics/index.html [运行时间：0.069048s][吞吐率：14.48req/s] [内存消耗：1,406.03kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=semu67u9dc6o4k0haotov1k3a6',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://zzjie.com/url/?http://103.122.92.168:9898',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:25:44+08:00 ] 66.249.64.84 GET /
+[ info ] 103.122.92.168:9898/ [运行时间：0.039500s][吞吐率：25.32req/s] [内存消耗：1,404.10kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'amp-cache-transform' => 'google;v="1..2"',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:25:45+08:00 ] 66.249.64.86 GET /index/publics/index.html
+[ info ] 103.122.92.168:9898/index/publics/index.html [运行时间：0.032866s][吞吐率：30.43req/s] [内存消耗：1,406.37kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=pbjp5pr7dhunar1muocpdc6hv2',
+  'amp-cache-transform' => 'google;v="1..2"',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1762 @@
+---------------------------------------------------------------
+[ 2020-04-24T16:52:30+08:00 ] 127.0.0.1 GET /
+[ info ] www.candyworld.com/ [运行时间：0.245024s][吞吐率：4.08req/s] [内存消耗：2,195.90kb] [文件加载：83]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013002s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.047004s ]
+[ sql ] [ SQL ] SELECT `key`,`value` FROM `config` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:52:30+08:00 ] 127.0.0.1 GET /index/publics/index.html
+[ info ] www.candyworld.com/index/publics/index.html [运行时间：0.067007s][吞吐率：14.92req/s] [内存消耗：1,419.02kb] [文件加载：71]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:52:36+08:00 ] 127.0.0.1 GET /index/publics/index.html
+[ info ] www.candyworld.com/index/publics/index.html [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,419.02kb] [文件加载：71]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:52:39+08:00 ] 127.0.0.1 GET /index/publics/index.html
+[ info ] www.candyworld.com/index/publics/index.html [运行时间：0.028003s][吞吐率：35.71req/s] [内存消耗：1,419.02kb] [文件加载：71]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\publics\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:05+08:00 ] 127.0.0.1 POST /index/publics/login.html
+[ info ] www.candyworld.com/index/publics/login.html [运行时间：0.109011s][吞吐率：9.17req/s] [内存消耗：2,366.72kb] [文件加载：85]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/publics/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.candyworld.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15222222222',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039004s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '15222222222' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:06+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.155016s][吞吐率：6.45req/s] [内存消耗：2,385.44kb] [文件加载：89]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/publics/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.030003s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:07+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.026003s][吞吐率：38.46req/s] [内存消耗：837.47kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:15+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.057005s][吞吐率：17.54req/s] [内存消耗：2,231.10kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/publics/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:19+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.061007s][吞吐率：16.39req/s] [内存消耗：2,230.63kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:22+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.064007s][吞吐率：15.62req/s] [内存消耗：2,230.63kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:25+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.060006s][吞吐率：16.66req/s] [内存消耗：2,230.63kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:28+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：837.47kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:31+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.053006s][吞吐率：18.87req/s] [内存消耗：2,231.09kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:31+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:33+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] www.candyworld.com/index/index/index [运行时间：0.048005s][吞吐率：20.83req/s] [内存消耗：2,231.07kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:34+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:39+08:00 ] 127.0.0.1 GET /index/product/index
+[ info ] www.candyworld.com/index/product/index [运行时间：0.064006s][吞吐率：15.62req/s] [内存消耗：2,364.53kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\product\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.029003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:39+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:51+08:00 ] 127.0.0.1 GET /index/market/index
+[ info ] www.candyworld.com/index/market/index [运行时间：0.170017s][吞吐率：5.88req/s] [内存消耗：2,516.78kb] [文件加载：89]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\market\index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `market_price` [ RunTime:0.036004s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` >= 1587657600  AND `creates_time` < 1587744000 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` < 1587657600 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `market_price` (`price` , `creates_time`) VALUES (0.66 , 1587718431) [ RunTime:0.017002s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` < 1587657600 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` ORDER BY `id`  desc LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `create_time` >= 1587632031 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `create_time` >= 1587632031 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:51+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:51+08:00 ] 127.0.0.1 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] www.candyworld.com/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.045005s][吞吐率：22.22req/s] [内存消耗：2,239.12kb] [文件加载：83]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/market/index',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:52+08:00 ] 127.0.0.1 GET /index/member/login.html
+[ info ] www.candyworld.com/index/member/login.html [运行时间：0.028003s][吞吐率：35.71req/s] [内存消耗：1,576.55kb] [文件加载：76]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/market/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:52+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:54+08:00 ] 127.0.0.1 GET /index/member/index.html
+[ info ] www.candyworld.com/index/member/index.html [运行时间：0.069007s][吞吐率：14.49req/s] [内存消耗：2,391.68kb] [文件加载：85]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:55+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.015002s][吞吐率：66.66req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:57+08:00 ] 127.0.0.1 GET /index/market/index
+[ info ] www.candyworld.com/index/market/index [运行时间：0.068007s][吞吐率：14.70req/s] [内存消耗：2,315.23kb] [文件加载：85]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\market\index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `create_time` >= 1587632037 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `create_time` >= 1587632037 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:58+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:58+08:00 ] 127.0.0.1 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] www.candyworld.com/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.042005s][吞吐率：23.81req/s] [内存消耗：2,239.29kb] [文件加载：83]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/market/index',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:53:59+08:00 ] 127.0.0.1 GET /index/member/login.html
+[ info ] www.candyworld.com/index/member/login.html [运行时间：0.020002s][吞吐率：50.00req/s] [内存消耗：1,463.45kb] [文件加载：74]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/market/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:53:59+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:01+08:00 ] 127.0.0.1 POST /index/member/login.html
+[ info ] www.candyworld.com/index/member/login.html [运行时间：0.024003s][吞吐率：41.66req/s] [内存消耗：1,423.27kb] [文件加载：72]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.candyworld.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '9',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'password' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:03+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.candyworld.com/index/index/index.html [运行时间：0.053005s][吞吐率：18.87req/s] [内存消耗：2,231.30kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:03+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012002s][吞吐率：83.32req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:05+08:00 ] 127.0.0.1 GET /index/member/index
+[ info ] www.candyworld.com/index/member/index [运行时间：0.042004s][吞吐率：23.81req/s] [内存消耗：2,265.02kb] [文件加载：83]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:05+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:12+08:00 ] 127.0.0.1 GET /index/member/set
+[ info ] www.candyworld.com/index/member/set [运行时间：0.044004s][吞吐率：22.73req/s] [内存消耗：1,583.41kb] [文件加载：76]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\set.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:14+08:00 ] 127.0.0.1 GET /index/member/password
+[ info ] www.candyworld.com/index/member/password [运行时间：0.023003s][吞吐率：43.47req/s] [内存消耗：1,578.66kb] [文件加载：76]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/set',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\password.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:15+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:17+08:00 ] 127.0.0.1 GET /index/member/safepassword.html
+[ info ] www.candyworld.com/index/member/safepassword.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,579.62kb] [文件加载：76]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/password',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\safepassword.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:17+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:18+08:00 ] 127.0.0.1 GET /index/member/password.html
+[ info ] www.candyworld.com/index/member/password.html [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,464.03kb] [文件加载：74]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/safepassword.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\password.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:18+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:18+08:00 ] 127.0.0.1 GET /index/member/safepassword.html
+[ info ] www.candyworld.com/index/member/safepassword.html [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,464.69kb] [文件加载：74]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/password.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\safepassword.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:18+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:19+08:00 ] 127.0.0.1 GET /index/member/password.html
+[ info ] www.candyworld.com/index/member/password.html [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：1,464.03kb] [文件加载：74]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/safepassword.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\password.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:19+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:19+08:00 ] 127.0.0.1 GET /index/member/set
+[ info ] www.candyworld.com/index/member/set [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,466.03kb] [文件加载：74]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/password.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\set.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:47+08:00 ] 127.0.0.1 GET /index/member/index
+[ info ] www.candyworld.com/index/member/index [运行时间：0.048005s][吞吐率：20.83req/s] [内存消耗：2,265.01kb] [文件加载：83]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/set',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\member\memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012002s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:48+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.016002s][吞吐率：62.49req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:49+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] www.candyworld.com/index/index/index [运行时间：0.056006s][吞吐率：17.86req/s] [内存消耗：2,231.23kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:49+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.013002s][吞吐率：76.91req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:51+08:00 ] 127.0.0.1 GET /index/index/articleinfo?articleId=2
+[ info ] www.candyworld.com/index/index/articleinfo?articleId=2 [运行时间：0.070007s][吞吐率：14.28req/s] [内存消耗：2,250.09kb] [文件加载：82]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'articleId' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\articleinfo.html [ array (
+  0 => 'articleinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012002s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `article_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:51+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:52+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] www.candyworld.com/index/index/index [运行时间：0.055006s][吞吐率：18.18req/s] [内存消耗：2,231.24kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/articleinfo?articleId=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:53+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:53+08:00 ] 127.0.0.1 GET /index/index/articleinfo?articleId=1
+[ info ] www.candyworld.com/index/index/articleinfo?articleId=1 [运行时间：0.043005s][吞吐率：23.25req/s] [内存消耗：2,137.43kb] [文件加载：80]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+  'articleId' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\articleinfo.html [ array (
+  0 => 'articleinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `article_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:54+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-24T16:54:55+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] www.candyworld.com/index/index/index [运行时间：0.066007s][吞吐率：15.15req/s] [内存消耗：2,231.24kb] [文件加载：86]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.candyworld.com/index/index/articleinfo?articleId=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WWW\candyworld\application\index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=candyworld;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-04-24T16:54:55+08:00 ] 127.0.0.1 GET /static/js/swiper.min.js.map
+[ info ] www.candyworld.com/static/js/swiper.min.js.map [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：837.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\WWW\candyworld\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'logglytrackingsession=4ba2bdb4-8f96-43c2-99c6-755670630cae; PHPSESSID=4nu41ohcgf2fvr57v480lsr9n3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'www.candyworld.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

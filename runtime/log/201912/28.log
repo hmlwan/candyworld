@@ -1,0 +1,41 @@
+---------------------------------------------------------------
+[ 2019-12-28T08:15:29+08:00 ] 183.192.164.214 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.088650s][吞吐率：11.28req/s] [内存消耗：1,045.71kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-28T08:15:31+08:00 ] 183.192.164.56 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.031170s][吞吐率：32.08req/s] [内存消耗：1,404.32kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

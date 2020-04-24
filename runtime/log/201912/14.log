@@ -1,0 +1,1688 @@
+---------------------------------------------------------------
+[ 2019-12-14T04:13:59+08:00 ] 182.122.89.197 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.309387s][吞吐率：3.23req/s] [内存消耗：1,404.78kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16e6a162c90d4-096bc9087411bf-404f012d-1b0000-16e6a162c917aa; _ga=GA1.2.1846008169.1574690875',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:3699/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:13:59+08:00 ] 182.122.89.197 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.076261s][吞吐率：13.11req/s] [内存消耗：1,406.91kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16e6a162c90d4-096bc9087411bf-404f012d-1b0000-16e6a162c917aa; _ga=GA1.2.1846008169.1574690875; PHPSESSID=o92pe0tjjjca3n5r9qhgt4eie6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:3699/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:14:05+08:00 ] 61.151.206.16 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.032512s][吞吐率：30.76req/s] [内存消耗：1,404.31kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:14:10+08:00 ] 182.122.89.197 GET /index/admin/index.html
+[ info ] mojing.aichuang123.cn:81/index/admin/index.html [运行时间：0.027963s][吞吐率：35.76req/s] [内存消耗：832.09kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16e6a162c90d4-096bc9087411bf-404f012d-1b0000-16e6a162c917aa; _ga=GA1.2.1846008169.1574690875; PHPSESSID=o92pe0tjjjca3n5r9qhgt4eie6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:14:10+08:00 ] 182.122.89.197 GET /index/admin/index.html
+[ info ] mojing.aichuang123.cn:81/index/admin/index.html [运行时间：0.016141s][吞吐率：61.95req/s] [内存消耗：829.90kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16e6a162c90d4-096bc9087411bf-404f012d-1b0000-16e6a162c917aa; _ga=GA1.2.1846008169.1574690875; PHPSESSID=o92pe0tjjjca3n5r9qhgt4eie6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:14:33+08:00 ] 182.122.89.197 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.045248s][吞吐率：22.10req/s] [内存消耗：1,048.04kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16e6a162c90d4-096bc9087411bf-404f012d-1b0000-16e6a162c917aa; _ga=GA1.2.1846008169.1574690875; PHPSESSID=o92pe0tjjjca3n5r9qhgt4eie6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:14:37+08:00 ] 61.151.206.25 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.023966s][吞吐率：41.73req/s] [内存消耗：1,045.71kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:15:06+08:00 ] 36.102.228.209 GET /index/publics/index.html?nsukey=%2BXs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl%2B6unqjGMPEdERO%2FdgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC%2BSGLx%2BXDKpUZyXgII4iVZDJbaLC4%2BgdAJqn9LrInMzK8RBQ%3D%3D
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html?nsukey=%2BXs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl%2B6unqjGMPEdERO%2FdgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC%2BSGLx%2BXDKpUZyXgII4iVZDJbaLC4%2BgdAJqn9LrInMzK8RBQ%3D%3D [运行时间：0.035929s][吞吐率：27.83req/s] [内存消耗：1,408.44kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '36.102.228.209',
+  'x-forwarded-for' => '36.102.228.209',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/45016 Mobile Safari/537.36 MMWEBID/1146 MicroMessenger/7.0.9.1560(0x27000935) Process/tools NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'mojing.aichuang123.cn:81',
+  'cookie' => 'UM_distinctid=16edafed755a4-044ebb14fef568-4c26264c-448e0-16edafed756bf',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '+Xs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl+6unqjGMPEdERO/dgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC+SGLx+XDKpUZyXgII4iVZDJbaLC4+gdAJqn9LrInMzK8RBQ==',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:15:15+08:00 ] 36.102.228.209 GET /admin/login/index.html?nsukey=fjAm9%2BNW%2FViZPboj1cs45EJhcOdUieOZY%2BTF5oyzbRueShcZ39YXVsIntnf4wlOh%2F%2FoX54P%2Fe%2F08YX9v7WcXQ%2FaqdznUC40fg1TfEm2J3jD%2Fce3XW4p%2FZ%2BsuoS6%2F8hxbv%2BCxIf5pj3Hqjk06lIeZ0F%2B0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL%2FoyVClApkc%2BeOQ%3D%3D
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html?nsukey=fjAm9%2BNW%2FViZPboj1cs45EJhcOdUieOZY%2BTF5oyzbRueShcZ39YXVsIntnf4wlOh%2F%2FoX54P%2Fe%2F08YX9v7WcXQ%2FaqdznUC40fg1TfEm2J3jD%2Fce3XW4p%2FZ%2BsuoS6%2F8hxbv%2BCxIf5pj3Hqjk06lIeZ0F%2B0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL%2FoyVClApkc%2BeOQ%3D%3D [运行时间：0.028389s][吞吐率：35.22req/s] [内存消耗：1,050.16kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '36.102.228.209',
+  'x-forwarded-for' => '36.102.228.209',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/45016 Mobile Safari/537.36 MMWEBID/1146 MicroMessenger/7.0.9.1560(0x27000935) Process/tools NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'mojing.aichuang123.cn:81',
+  'cookie' => 'UM_distinctid=16edafed755a4-044ebb14fef568-4c26264c-448e0-16edafed756bf',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'fjAm9+NW/ViZPboj1cs45EJhcOdUieOZY+TF5oyzbRueShcZ39YXVsIntnf4wlOh//oX54P/e/08YX9v7WcXQ/aqdznUC40fg1TfEm2J3jD/ce3XW4p/Z+suoS6/8hxbv+CxIf5pj3Hqjk06lIeZ0F+0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL/oyVClApkc+eOQ==',
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:05+08:00 ] 101.91.62.99 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.033152s][吞吐率：30.16req/s] [内存消耗：1,404.45kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:07+08:00 ] 101.91.60.107 GET /index/publics/index.html?nsukey=%2BXs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl%2B6unqjGMPEdERO%2FdgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC%2BSGLx%2BXDKpUZyXgII4iVZDJbaLC4%2BgdAJqn9LrInMzK8RBQ%3D%3D
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html?nsukey=%2BXs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl%2B6unqjGMPEdERO%2FdgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC%2BSGLx%2BXDKpUZyXgII4iVZDJbaLC4%2BgdAJqn9LrInMzK8RBQ%3D%3D [运行时间：0.030667s][吞吐率：32.61req/s] [内存消耗：1,405.61kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '+Xs2tCPPWaaUXZQuF4E648p0Fu0OFR2VXCxZWKIGGDzEVwl+6unqjGMPEdERO/dgZHfKO79UftLEKLb35babHuVZHUWpY0cXInfoh8Y3A1nZrA0ICVIwwJ39Uq4KpD20GUyb49mraeKYevnGpnWNFJeDTOpQ1gXEWSSVrfC+SGLx+XDKpUZyXgII4iVZDJbaLC4+gdAJqn9LrInMzK8RBQ==',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:13+08:00 ] 61.151.178.236 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.028175s][吞吐率：35.49req/s] [内存消耗：1,046.09kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:14+08:00 ] 101.227.139.161 GET /admin/login/index.html?nsukey=fjAm9%2BNW%2FViZPboj1cs45EJhcOdUieOZY%2BTF5oyzbRueShcZ39YXVsIntnf4wlOh%2F%2FoX54P%2Fe%2F08YX9v7WcXQ%2FaqdznUC40fg1TfEm2J3jD%2Fce3XW4p%2FZ%2BsuoS6%2F8hxbv%2BCxIf5pj3Hqjk06lIeZ0F%2B0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL%2FoyVClApkc%2BeOQ%3D%3D
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html?nsukey=fjAm9%2BNW%2FViZPboj1cs45EJhcOdUieOZY%2BTF5oyzbRueShcZ39YXVsIntnf4wlOh%2F%2FoX54P%2Fe%2F08YX9v7WcXQ%2FaqdznUC40fg1TfEm2J3jD%2Fce3XW4p%2FZ%2BsuoS6%2F8hxbv%2BCxIf5pj3Hqjk06lIeZ0F%2B0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL%2FoyVClApkc%2BeOQ%3D%3D [运行时间：0.038312s][吞吐率：26.10req/s] [内存消耗：1,047.40kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'fjAm9+NW/ViZPboj1cs45EJhcOdUieOZY+TF5oyzbRueShcZ39YXVsIntnf4wlOh//oX54P/e/08YX9v7WcXQ/aqdznUC40fg1TfEm2J3jD/ce3XW4p/Z+suoS6/8hxbv+CxIf5pj3Hqjk06lIeZ0F+0XlNWJ4DNs24ZWyDnPbsLEeTEiDELmSSGTfRYI857W8u42sxL/oyVClApkc+eOQ==',
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:23+08:00 ] 58.60.15.41 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.029093s][吞吐率：34.37req/s] [内存消耗：1,404.01kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:24+08:00 ] 59.36.129.53 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.024011s][吞吐率：41.65req/s] [内存消耗：1,404.01kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:16:37+08:00 ] 59.36.129.82 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.020224s][吞吐率：49.45req/s] [内存消耗：1,045.66kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:18+08:00 ] 223.104.254.144 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.025164s][吞吐率：39.74req/s] [内存消耗：1,046.74kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:19+08:00 ] 223.104.254.144 GET /admin/bootstrap/fonts/glyphicons-halflings-regular.eot?
+[ info ] mojing.aichuang123.cn:81/admin/bootstrap/fonts/glyphicons-halflings-regular.eot? [运行时间：0.031772s][吞吐率：31.47req/s] [内存消耗：832.81kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:19+08:00 ] 223.104.254.144 GET /admin/bootstrap/fonts/glyphicons-halflings-regular.eot?
+[ info ] mojing.aichuang123.cn:81/admin/bootstrap/fonts/glyphicons-halflings-regular.eot? [运行时间：0.051631s][吞吐率：19.37req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:19+08:00 ] 223.104.254.144 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] mojing.aichuang123.cn:81/admin/fonts/fontawesome-webfont.eot? [运行时间：0.055275s][吞吐率：18.09req/s] [内存消耗：832.73kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:19+08:00 ] 223.104.254.144 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] mojing.aichuang123.cn:81/admin/fonts/fontawesome-webfont.eot? [运行时间：0.034123s][吞吐率：29.31req/s] [内存消耗：829.52kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:35+08:00 ] 223.104.254.144 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.023120s][吞吐率：43.25req/s] [内存消耗：1,046.74kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:35+08:00 ] 223.104.254.144 GET /admin/bootstrap/fonts/glyphicons-halflings-regular.eot?
+[ info ] mojing.aichuang123.cn:81/admin/bootstrap/fonts/glyphicons-halflings-regular.eot? [运行时间：0.033961s][吞吐率：29.45req/s] [内存消耗：832.81kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:35+08:00 ] 223.104.254.144 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] mojing.aichuang123.cn:81/admin/fonts/fontawesome-webfont.eot? [运行时间：0.041524s][吞吐率：24.08req/s] [内存消耗：832.73kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:35+08:00 ] 223.104.254.144 GET /admin/bootstrap/fonts/glyphicons-halflings-regular.eot?
+[ info ] mojing.aichuang123.cn:81/admin/bootstrap/fonts/glyphicons-halflings-regular.eot? [运行时间：0.037689s][吞吐率：26.53req/s] [内存消耗：829.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:35+08:00 ] 223.104.254.144 GET /admin/fonts/fontawesome-webfont.eot?
+[ info ] mojing.aichuang123.cn:81/admin/fonts/fontawesome-webfont.eot? [运行时间：0.019197s][吞吐率：52.09req/s] [内存消耗：829.52kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:37+08:00 ] 223.104.254.144 GET /admin/login/index.html
+[ info ] mojing.aichuang123.cn:81/admin/login/index.html [运行时间：0.017819s][吞吐率：56.12req/s] [内存消耗：1,047.66kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:17:48+08:00 ] 223.104.254.144 POST /admin/login/login.html
+[ info ] mojing.aichuang123.cn:81/admin/login/login.html [运行时间：0.158279s][吞吐率：6.32req/s] [内存消耗：2,272.47kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://mojing.aichuang123.cn:81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.018700s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` WHERE  `manage_name` = 'admin' LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:17:48+08:00 ] 223.104.254.144 GET /admin/index/index.html
+[ info ] mojing.aichuang123.cn:81/admin/index/index.html [运行时间：0.167120s][吞吐率：5.98req/s] [内存消耗：2,380.66kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; monitor_count=1; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/index/index.html [ array (
+  0 => 'userLevel',
+  1 => 'magic',
+  2 => 'order',
+  3 => 'user',
+  4 => 'charge_number',
+  5 => 'manage',
+  6 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004732s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001767s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.025366s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002887s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `register_time` BETWEEN 1576252800 AND 1576339200 LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = 1 LIMIT 1 [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `is_certification` = -1 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002413s ]
+[ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4  AND `finish_time` < 1576252800  AND `finish_time` >= 1576166400 LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT count(*) as total,`level` FROM user GROUP BY `level` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.002209s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 3 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_menu` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT manage_power.path as url,`manage_menu`.* FROM `manage_menu` LEFT JOIN `manage_power` ON `manage_power`.`menu_id`=`manage_menu`.`id` WHERE  `manage_menu`.`level` IN ('1','2') ORDER BY `manage_menu`.`sort`  asc [ RunTime:0.002065s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:18:03+08:00 ] 223.104.254.144 GET /admin/product/index
+[ info ] mojing.aichuang123.cn:81/admin/product/index [运行时间：0.096890s][吞吐率：10.32req/s] [内存消耗：2,376.86kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/product/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 0,15 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:18:18+08:00 ] 223.104.254.144 GET /admin/user/magicList
+[ info ] mojing.aichuang123.cn:81/admin/user/magicList [运行时间：0.149445s][吞吐率：6.69req/s] [内存消耗：2,466.02kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/user/magic.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.002009s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.002540s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.060958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.002439s ]
+[ sql ] [ SQL ] SELECT `um`.*,`u`.`mobile` FROM `user_magic_log` `um` LEFT JOIN `user` `u` ON `um`.`user_id`=`u`.`id` ORDER BY `um`.`create_time`  desc LIMIT 0,15 [ RunTime:0.026894s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:18:25+08:00 ] 223.104.254.144 GET /admin/manage/index
+[ info ] mojing.aichuang123.cn:81/admin/manage/index [运行时间：0.047984s][吞吐率：20.84req/s] [内存消耗：2,382.60kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/user/magicList',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/manage/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_user` LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` LIMIT 0,15 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:18:33+08:00 ] 223.104.254.144 GET /admin/product/index
+[ info ] mojing.aichuang123.cn:81/admin/product/index [运行时间：0.068497s][吞吐率：14.60req/s] [内存消耗：2,376.86kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/manage/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/product/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.002512s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 0,15 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:10+08:00 ] 223.104.254.144 GET /admin/manage/index
+[ info ] mojing.aichuang123.cn:81/admin/manage/index [运行时间：0.060089s][吞吐率：16.64req/s] [内存消耗：2,382.60kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/manage/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_user` LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` LIMIT 0,15 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:12+08:00 ] 223.104.254.144 GET /admin/manage/create
+[ info ] mojing.aichuang123.cn:81/admin/manage/create [运行时间：0.130215s][吞吐率：7.68req/s] [内存消耗：2,473.20kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/manage/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/manage/edit.html [ array (
+  0 => 'groups',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.001770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` [ RunTime:0.001264s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:22+08:00 ] 223.104.254.144 POST /admin/manage/save.html
+[ info ] mojing.aichuang123.cn:81/admin/manage/save.html [运行时间：0.070648s][吞吐率：14.15req/s] [内存消耗：2,242.41kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/manage/create',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://mojing.aichuang123.cn:81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '56',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123456',
+  'password' => '123456',
+  'password_confirmation' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:28+08:00 ] 223.104.254.144 POST /admin/manage/save.html
+[ info ] mojing.aichuang123.cn:81/admin/manage/save.html [运行时间：0.071596s][吞吐率：13.97req/s] [内存消耗：2,270.10kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/manage/create',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://mojing.aichuang123.cn:81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '73',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123456',
+  'password' => '123456',
+  'password_confirmation' => '123456',
+  'groupIds' => 
+  array (
+    0 => '3',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.001840s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.002785s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.001759s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` WHERE  `manage_name` = '123456' LIMIT 1 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] INSERT INTO `manage_user` (`manage_name` , `password_salt` , `password` , `create_time` , `update_time`) VALUES ('123456' , '9999999' , 'abfe5d4e6c7605dae39f3e18746b6348' , 1576268428 , 1576268428) [ RunTime:0.001302s ]
+[ sql ] [ SQL ] DELETE FROM `manage_user_group` WHERE  `user_id` = 2 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user_group` WHERE  `user_id` = 2  AND `group_id` = 3 LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] INSERT INTO `manage_user_group` (`user_id` , `group_id`) VALUES (2 , 3) [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:28+08:00 ] 223.104.254.144 GET /admin/manage.html
+[ info ] mojing.aichuang123.cn:81/admin/manage.html [运行时间：0.051848s][吞吐率：19.29req/s] [内存消耗：2,384.46kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mojing.aichuang123.cn:81/admin/manage/create',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/admin/view/manage/index.html [ array (
+  0 => 'list',
+  1 => 'manage',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user_group` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_group` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_user` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_user` LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_user` LIMIT 0,15 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (1) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `manage_user_group` WHERE  `user_id` = 2 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_group` WHERE  `id` IN (3) [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2019-12-14T04:20:55+08:00 ] 223.104.254.144 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.038649s][吞吐率：25.87req/s] [内存消耗：1,406.39kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:03+08:00 ] 42.236.10.125 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.037569s][吞吐率：26.62req/s] [内存消耗：1,406.91kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:04+08:00 ] 42.236.10.75 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.035044s][吞吐率：28.54req/s] [内存消耗：1,404.79kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:05+08:00 ] 42.236.10.75 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.022952s][吞吐率：43.57req/s] [内存消耗：1,407.06kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5e237ql86v2s211buc0mp7i5jq',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:25+08:00 ] 223.104.254.144 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.031424s][吞吐率：31.82req/s] [内存消耗：1,405.34kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=10',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:25+08:00 ] 42.236.10.114 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.031450s][吞吐率：31.80req/s] [内存消耗：1,405.24kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:25+08:00 ] 223.104.254.144 GET /static/fonts/mui.ttf)%20format(%22truetype%22
+[ info ] mojing.aichuang123.cn:81/static/fonts/mui.ttf)%20format(%22truetype%22 [运行时间：0.023177s][吞吐率：43.15req/s] [内存消耗：829.97kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=10',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/index/publics/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:25+08:00 ] 223.104.254.144 GET /static/fonts/mui.ttf)%20format(%22truetype%22
+[ info ] mojing.aichuang123.cn:81/static/fonts/mui.ttf)%20format(%22truetype%22 [运行时间：0.017561s][吞吐率：56.94req/s] [内存消耗：829.91kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=10',
+  'connection' => 'Keep-Alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://mojing.aichuang123.cn:81/index/publics/index.html',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:25+08:00 ] 42.236.10.114 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.028348s][吞吐率：35.28req/s] [内存消耗：1,406.91kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:27+08:00 ] 42.236.10.78 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.025653s][吞吐率：38.98req/s] [内存消耗：1,404.49kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:27+08:00 ] 42.236.10.78 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.031363s][吞吐率：31.88req/s] [内存消耗：1,405.48kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r1qkbdfd92agjstl4e6e6ib1gq',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:27+08:00 ] 42.236.10.78 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.030810s][吞吐率：32.46req/s] [内存消耗：1,404.79kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:27+08:00 ] 42.236.10.84 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.030807s][吞吐率：32.46req/s] [内存消耗：1,407.06kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9i0hononts43t16fmbv1pm9vcu',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T04:21:45+08:00 ] 223.104.254.144 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.032649s][吞吐率：30.63req/s] [内存消耗：1,406.39kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16ee9e8a2a02a2-032b17363b89-454c092b-15f900-16ee9e8a2a12cf; __guid=183884986.1753019204880567600.1576239742145.823; PHPSESSID=tvadoa8tirg3jrb41ekvb84fn7; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:44+08:00 ] 120.33.34.88 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.035318s][吞吐率：28.31req/s] [内存消耗：1,403.04kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:45+08:00 ] 120.33.34.88 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.033691s][吞吐率：29.68req/s] [内存消耗：1,404.04kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:45+08:00 ] 120.33.34.88 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.030639s][吞吐率：32.64req/s] [内存消耗：1,403.04kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:45+08:00 ] 120.33.34.88 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.027235s][吞吐率：36.72req/s] [内存消耗：1,404.04kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:45+08:00 ] 120.33.34.88 GET /
+[ info ] mojing.aichuang123.cn:81/ [运行时间：0.028625s][吞吐率：34.93req/s] [内存消耗：1,403.04kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T05:23:45+08:00 ] 120.33.34.88 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.043849s][吞吐率：22.81req/s] [内存消耗：1,404.04kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mojing.aichuang123.cn:81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T11:52:42+08:00 ] 180.163.220.66 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.036306s][吞吐率：27.54req/s] [内存消耗：1,406.04kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) baidu.sogo.uc.Chrome/36.0.1985.125 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T11:53:27+08:00 ] 180.163.220.5 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.036424s][吞吐率：27.45req/s] [内存消耗：1,404.49kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) baidu.sogo.uc.Chrome/36.0.1985.125 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-14T11:53:27+08:00 ] 180.163.220.5 GET /index/publics/index.html
+[ info ] mojing.aichuang123.cn:81/index/publics/index.html [运行时间：0.035518s][吞吐率：28.15req/s] [内存消耗：1,406.04kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) baidu.sogo.uc.Chrome/36.0.1985.125 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.aichuang123.cn:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

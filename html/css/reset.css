@@ -52,11 +52,23 @@ button{
 .wrap {
     flex-wrap:wrap
 }
+.float_l{
+    float: left;
+}
+.float_r{
+    float: right;
+}
+.over_hidden{
+    overflow: hidden;
+}
 .column{
     flex-direction:column;
 }
 .default-bor-bottom{
     border-bottom: 1px solid #f6f7f9;
+}
+.relative{
+    position: relative;
 }
 .blod{
     font-weight: bold;

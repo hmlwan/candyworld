@@ -1,0 +1,1756 @@
+---------------------------------------------------------------
+[ 2019-12-24T11:51:31+08:00 ] 106.18.91.233 GET /
+[ info ] mojing.3sup0.top/ [运行时间：0.042112s][吞吐率：23.75req/s] [内存消耗：1,404.13kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zzjie.com/url/?http://mojing.3sup0.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.3sup0.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T11:51:31+08:00 ] 106.18.91.233 GET /index/publics/index.html
+[ info ] mojing.3sup0.top/index/publics/index.html [运行时间：0.022528s][吞吐率：44.39req/s] [内存消耗：1,406.40kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ocl03a2ldq2mg8pn0hfo658vjl',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zzjie.com/url/?http://mojing.3sup0.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'mojing.3sup0.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T17:59:27+08:00 ] 123.112.246.229 GET /
+[ info ] 103.122.92.168:9898/ [运行时间：0.025053s][吞吐率：39.92req/s] [内存消耗：1,403.72kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Core/1.70.3704.400 QQBrowser/10.4.3587.400',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://zzjie.com/url/?http://103.122.92.168:9898',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T17:59:28+08:00 ] 123.112.246.229 GET /index/publics/index.html
+[ info ] 103.122.92.168:9898/index/publics/index.html [运行时间：0.026127s][吞吐率：38.27req/s] [内存消耗：1,405.98kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0tuii0u4dn28gejnh9uhkb58e1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Core/1.70.3704.400 QQBrowser/10.4.3587.400',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://zzjie.com/url/?http://103.122.92.168:9898',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T18:01:24+08:00 ] 123.112.246.229 POST /index/publics/login.html
+[ info ] 103.122.92.168:9898/index/publics/login.html [运行时间：0.044920s][吞吐率：22.26req/s] [内存消耗：2,347.18kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0tuii0u4dn28gejnh9uhkb58e1',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Core/1.70.3704.400 QQBrowser/10.4.3587.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://103.122.92.168:9898/index/publics/index.html',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'host' => '103.122.92.168:9898',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15222222222',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001719s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004237s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '15222222222' LIMIT 1 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2019-12-24T18:01:50+08:00 ] 123.112.246.229 GET /index/publics/index.html
+[ info ] 103.122.92.168:9898/index/publics/index.html [运行时间：0.020856s][吞吐率：47.95req/s] [内存消耗：1,404.71kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Core/1.70.3704.400 QQBrowser/10.4.3587.400',
+  'connection' => 'Keep-Alive',
+  'host' => '103.122.92.168:9898',
+  'cookie' => 'PHPSESSID=0tuii0u4dn28gejnh9uhkb58e1',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:43:50+08:00 ] 106.127.189.84 GET /
+[ info ] 103.122.92.168:9898/ [运行时间：0.022908s][吞吐率：43.65req/s] [内存消耗：1,404.99kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=259200',
+  'host' => '103.122.92.168:9898',
+  'x-forwarded-for' => '106.127.189.84',
+  'accept-encoding' => 'gzip, deflate',
+  'clientip' => '106.127.189.84',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:43:50+08:00 ] 106.127.189.84 GET /index/publics/index.html
+[ info ] 103.122.92.168:9898/index/publics/index.html [运行时间：0.020870s][吞吐率：47.92req/s] [内存消耗：1,407.16kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=259200',
+  'host' => '103.122.92.168:9898',
+  'x-forwarded-for' => '106.127.189.84',
+  'clientip' => '106.127.189.84',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'referer' => 'http://103.122.92.168:9898/',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/publics/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:44:08+08:00 ] 106.127.189.84 POST /index/publics/login.html
+[ info ] 103.122.92.168:9898/index/publics/login.html [运行时间：0.042016s][吞吐率：23.80req/s] [内存消耗：2,347.64kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=259200',
+  'host' => '103.122.92.168:9898',
+  'x-forwarded-for' => '106.127.189.84',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em;',
+  'clientip' => '106.127.189.84',
+  'content-length' => '35',
+  'referer' => 'http://103.122.92.168:9898/index/publics/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15222222222',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001335s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003201s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `mobile` = '15222222222' LIMIT 1 [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:44:09+08:00 ] 106.127.189.84 GET /index/index/index.html
+[ info ] 103.122.92.168:9898/index/index/index.html [运行时间：0.042111s][吞吐率：23.75req/s] [内存消耗：2,242.67kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/publics/index.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003549s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:44:15+08:00 ] 106.127.189.84 GET /index/product/index
+[ info ] 103.122.92.168:9898/index/product/index [运行时间：0.037106s][吞吐率：26.95req/s] [内存消耗：2,151.93kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/product/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:44:37+08:00 ] 106.127.189.84 GET /index/index/index
+[ info ] 103.122.92.168:9898/index/index/index [运行时间：0.035979s][吞吐率：27.79req/s] [内存消耗：2,214.71kb] [文件加载：86]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/product/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:44:45+08:00 ] 106.127.189.84 GET /index/index/phb
+[ info ] 103.122.92.168:9898/index/index/phb [运行时间：0.035133s][吞吐率：28.46req/s] [内存消耗：2,113.52kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/phb.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `nick_name`,`avatar`,`product_rate` FROM `user` ORDER BY `product_rate`  desc LIMIT 20 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:44:46+08:00 ] 106.127.189.84 GET /uploads/20180617/25c5701fafc740ab68953665bedaa122.jpg
+[ info ] 103.122.92.168:9898/uploads/20180617/25c5701fafc740ab68953665bedaa122.jpg [运行时间：0.013277s][吞吐率：75.32req/s] [内存消耗：829.79kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/phb',
+  'accept-language' => 'zh-cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:44:46+08:00 ] 106.127.189.84 GET /uploads/20180616/24eb5f6930c64a9e49d9bbec235039f5.png
+[ info ] 103.122.92.168:9898/uploads/20180616/24eb5f6930c64a9e49d9bbec235039f5.png [运行时间：0.012506s][吞吐率：79.96req/s] [内存消耗：829.79kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/phb',
+  'accept-language' => 'zh-cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:44:46+08:00 ] 106.127.189.84 GET /uploads/20180617/653765700a987b39d407edcdf0e49f0a.jpg
+[ info ] 103.122.92.168:9898/uploads/20180617/653765700a987b39d407edcdf0e49f0a.jpg [运行时间：0.012544s][吞吐率：79.72req/s] [内存消耗：829.79kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/phb',
+  'accept-language' => 'zh-cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:44:57+08:00 ] 106.127.189.84 GET /index/index/articleinfo?articleId=2
+[ info ] 103.122.92.168:9898/index/index/articleinfo?articleId=2 [运行时间：0.034739s][吞吐率：28.79req/s] [内存消耗：2,057.94kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'articleId' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/articleinfo.html [ array (
+  0 => 'articleinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `article_id` = 2 LIMIT 1 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:00+08:00 ] 106.127.189.84 GET /index/index/articleinfo?articleId=1
+[ info ] 103.122.92.168:9898/index/index/articleinfo?articleId=1 [运行时间：0.030418s][吞吐率：32.88req/s] [内存消耗：2,057.91kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'articleId' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/articleinfo.html [ array (
+  0 => 'articleinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `article_id` = 1 LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:03+08:00 ] 106.127.189.84 GET /index/market/index
+[ info ] 103.122.92.168:9898/index/market/index [运行时间：0.050151s][吞吐率：19.94req/s] [内存消耗：2,292.37kb] [文件加载：86]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/market/index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `market_price` [ RunTime:0.001764s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` >= 1577116800  AND `creates_time` < 1577203200 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` < 1577116800 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] INSERT INTO `market_price` (`price` , `creates_time`) VALUES (1.01 , 1577202303) [ RunTime:0.005702s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` WHERE  `creates_time` < 1577116800 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `market_price` ORDER BY `id`  desc LIMIT 5 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:03+08:00 ] 106.127.189.84 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] 103.122.92.168:9898/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.031046s][吞吐率：32.21req/s] [内存消耗：2,158.73kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:04+08:00 ] 106.127.189.84 GET /index/member/login.html
+[ info ] 103.122.92.168:9898/index/member/login.html [运行时间：0.023174s][吞吐率：43.15req/s] [内存消耗：1,450.92kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:45:26+08:00 ] 106.127.189.84 POST /index/member/login.html
+[ info ] 103.122.92.168:9898/index/member/login.html [运行时间：0.035175s][吞吐率：28.43req/s] [内存消耗：2,147.72kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/login.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:27+08:00 ] 106.127.189.84 GET /index/market/index
+[ info ] 103.122.92.168:9898/index/market/index [运行时间：0.035106s][吞吐率：28.49req/s] [内存消耗：2,193.58kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/login.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/market/index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:27+08:00 ] 106.127.189.84 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] 103.122.92.168:9898/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.036929s][吞吐率：27.08req/s] [内存消耗：2,150.91kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT o.number,o.user_id,o.price,o.id,o.total_price,o.total_price_china,u.nick_name,u.avatar,u.comment_rate,
+(SELECT count(*) FROM orders where user_id = o.user_id and status = 4 limit 1) as finish
+FROM orders as o LEFT JOIN user as u ON o.user_id=u.id WHERE o.status =1 AND
+o.types=1 AND user_id<>32706 ORDER BY o.create_time DESC limit 0,10 [ RunTime:0.004127s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:39+08:00 ] 106.127.189.84 GET /index/market/salelist.html?page=1&limit=10&mobile=
+[ info ] 103.122.92.168:9898/index/market/salelist.html?page=1&limit=10&mobile= [运行时间：0.037609s][吞吐率：26.59req/s] [内存消耗：2,150.34kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT o.number,o.user_id,o.price,o.id,o.total_price,o.total_price_china,u.nick_name,u.avatar,u.comment_rate,
+(SELECT count(*) FROM orders where user_id = o.user_id and status = 4 limit 1) as finish
+FROM orders as o LEFT JOIN user as u ON o.user_id=u.id WHERE o.status =1 AND
+o.types=2 AND user_id<>32706 ORDER BY o.create_time DESC limit 0,10 [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:45:49+08:00 ] 106.127.189.84 POST /index/market/sendsale.html
+[ info ] 103.122.92.168:9898/index/market/sendsale.html [运行时间：0.423526s][吞吐率：2.36req/s] [内存消耗：2,169.93kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '26',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000955s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001989s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  ( `user_id` = 32706 OR `target_user_id` = 32706 )  AND `status` IN (1,2,3) LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:46:13+08:00 ] 106.127.189.84 POST /index/market/saleta.html
+[ info ] 103.122.92.168:9898/index/market/saleta.html [运行时间：0.032773s][吞吐率：30.51req/s] [内存消耗：2,120.59kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'content-length' => '24',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '26',
+  'code' => 'success',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:46:17+08:00 ] 106.127.189.84 POST /index/market/sendsale.html
+[ info ] 103.122.92.168:9898/index/market/sendsale.html [运行时间：0.261424s][吞吐率：3.83req/s] [内存消耗：2,169.98kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  ( `user_id` = 32706 OR `target_user_id` = 32706 )  AND `status` IN (1,2,3) LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:46:40+08:00 ] 106.127.189.84 POST /index/market/saleta.html
+[ info ] 103.122.92.168:9898/index/market/saleta.html [运行时间：0.035068s][吞吐率：28.52req/s] [内存消耗：2,120.59kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'origin' => 'http://103.122.92.168:9898',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'content-length' => '24',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '25',
+  'code' => 'cuccess',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:46:50+08:00 ] 106.127.189.84 GET /index/member/index
+[ info ] 103.122.92.168:9898/index/member/index [运行时间：0.035872s][吞吐率：27.88req/s] [内存消耗：2,185.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/market/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:46:52+08:00 ] 106.127.189.84 GET /index/member/spread.html
+[ info ] 103.122.92.168:9898/index/member/spread.html [运行时间：0.036714s][吞吐率：27.24req/s] [内存消耗：2,138.02kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/spread.html [ array (
+  0 => 'path',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_invite_code` [ RunTime:0.002295s ]
+[ sql ] [ SQL ] SELECT `invite_code` FROM `user_invite_code` WHERE  `user_id` = 32706 LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:02+08:00 ] 106.127.189.84 GET /index/member/spread.html
+[ info ] 103.122.92.168:9898/index/member/spread.html [运行时间：0.031713s][吞吐率：31.53req/s] [内存消耗：2,138.02kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/spread.html [ array (
+  0 => 'path',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_invite_code` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT `invite_code` FROM `user_invite_code` WHERE  `user_id` = 32706 LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:10+08:00 ] 106.127.189.84 GET /index/trade/index.html
+[ info ] 103.122.92.168:9898/index/trade/index.html [运行时间：0.034890s][吞吐率：28.66req/s] [内存消耗：2,187.07kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32706 AND types=1 AND status in (2,3))
+OR (target_user_id = 32706 AND types=2 AND status in (2,3)) [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32706 AND types=2 AND status in (2,3))
+OR (target_user_id = 32706 AND types=1 AND status in (2,3)) [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:11+08:00 ] 106.127.189.84 GET /index/trade/buy.html
+[ info ] 103.122.92.168:9898/index/trade/buy.html [运行时间：0.036737s][吞吐率：27.22req/s] [内存消耗：2,185.38kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/trade/index.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/trade/buy.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32706  AND `status` = 1  AND `types` = 1 LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:12+08:00 ] 106.127.189.84 GET /index/trade/sale.html
+[ info ] 103.122.92.168:9898/index/trade/sale.html [运行时间：0.038683s][吞吐率：25.85req/s] [内存消耗：2,185.37kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/trade/buy.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/trade/sale.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32706  AND `status` = 1  AND `types` = 2 LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:13+08:00 ] 106.127.189.84 GET /index/trade/finish.html
+[ info ] 103.122.92.168:9898/index/trade/finish.html [运行时间：0.034817s][吞吐率：28.72req/s] [内存消耗：2,184.52kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/trade/sale.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/trade/finish.html [ array (
+  0 => 'list',
+  1 => 'ownId',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32706 AND status = 4)
+OR (target_user_id = 32706  AND status = 4) ORDER BY finish_time desc [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:20+08:00 ] 106.127.189.84 GET /index/member/union.html
+[ info ] 103.122.92.168:9898/index/member/union.html [运行时间：0.042655s][吞吐率：23.44req/s] [内存消耗：2,217.86kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/union.html [ array (
+  0 => 'list',
+  1 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `pid` = 32706 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:23+08:00 ] 106.127.189.84 GET /index/member/index
+[ info ] 103.122.92.168:9898/index/member/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,185.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/union.html',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:25+08:00 ] 106.127.189.84 GET /index/member/articleList
+[ info ] 103.122.92.168:9898/index/member/articleList [运行时间：0.032397s][吞吐率：30.87req/s] [内存消耗：2,134.83kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/articleList.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 2 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:28+08:00 ] 106.127.189.84 GET /index/member/index
+[ info ] 103.122.92.168:9898/index/member/index [运行时间：0.034091s][吞吐率：29.33req/s] [内存消耗：2,185.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/articleList',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:32+08:00 ] 106.127.189.84 GET /index/member/about
+[ info ] 103.122.92.168:9898/index/member/about [运行时间：0.021297s][吞吐率：46.96req/s] [内存消耗：1,410.88kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:47:34+08:00 ] 106.127.189.84 GET /index/member/index
+[ info ] 103.122.92.168:9898/index/member/index [运行时间：0.032363s][吞吐率：30.90req/s] [内存消耗：2,185.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/about',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:36+08:00 ] 106.127.189.84 GET /index/member/set
+[ info ] 103.122.92.168:9898/index/member/set [运行时间：0.020915s][吞吐率：47.81req/s] [内存消耗：1,453.75kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/set.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-24T23:47:39+08:00 ] 106.127.189.84 GET /index/member/index
+[ info ] 103.122.92.168:9898/index/member/index [运行时间：0.068785s][吞吐率：14.54req/s] [内存消耗：2,185.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/set',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32706 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32706 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:40+08:00 ] 106.127.189.84 GET /index/index/index
+[ info ] 103.122.92.168:9898/index/index/index [运行时间：0.035549s][吞吐率：28.13req/s] [内存消耗：2,214.80kb] [文件加载：86]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/member/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'sl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sl` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `sl` WHERE  `types` = 1 [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2019-12-24T23:47:42+08:00 ] 106.127.189.84 GET /index/product/index
+[ info ] 103.122.92.168:9898/index/product/index [运行时间：0.032901s][吞吐率：30.39req/s] [内存消耗：2,152.02kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/mojing/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://103.122.92.168:9898/index/index/index',
+  'accept-language' => 'zh-cn',
+  'x-ucbrowser-ua' => 'dv(iPh10,3);pr(UCBrowser/12.7.4.1243);ov(12_4);ss(375x812);bt(UC);pm(0);bv(0);nm(0);im(0);nt(2);',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cookie' => 'PHPSESSID=slgql5ttvvfobgr7m98hd600em',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/16G77 UCBrowser/12.7.4.1243 Mobile  AliApp(TUnionSDK/0.1.20.3)',
+  'connection' => 'keep-alive',
+  'host' => '103.122.92.168:9898',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/mojing/application/index/view/product/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=3306;dbname=mojing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000264s ]

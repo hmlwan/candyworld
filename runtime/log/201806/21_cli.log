@@ -1,0 +1,497 @@
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001611s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.001029s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000457s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_product` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000422s ]
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user_product` WHERE  `status` = 1 LIMIT 0,1000 [ RunTime:0.000463s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000254s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000309s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001031s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000324s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000368s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000250s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000332s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000263s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000625s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001261s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000518s ]
+[ 2018-06-21T00:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 6930.51198034  WHERE  `id` = 32701 [ RunTime:0.000539s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.001077s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32701 , '魔盒[247211327011]收益4天' , 0.4205619 , 6930.09141844 , 6930.51198034 , 1529510461 , 5) [ RunTime:0.000419s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 0.4205619 , `total` = 1.30274191 , `balance_day` = 4 , `last_time` = 1529510461  WHERE  `id` = 57797 [ RunTime:0.000381s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000536s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 6935.01285134  WHERE  `id` = 32701 [ RunTime:0.000348s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32701 , '魔盒[248760327012]收益4天' , 4.500871 , 6930.51198034 , 6935.01285134 , 1529510461 , 5) [ RunTime:0.000324s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 4.500871 , `total` = 11.05856418 , `balance_day` = 4 , `last_time` = 1529510461  WHERE  `id` = 57798 [ RunTime:0.000430s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000448s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 6939.51383064  WHERE  `id` = 32701 [ RunTime:0.000349s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32701 , '魔盒[248768327012]收益4天' , 4.5009793 , 6935.01285134 , 6939.51383064 , 1529510461 , 5) [ RunTime:0.000446s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 4.5009793 , `total` = 11.05800397 , `balance_day` = 4 , `last_time` = 1529510461  WHERE  `id` = 57799 [ RunTime:0.000304s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32701 LIMIT 1 [ RunTime:0.000641s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 7237.91972174  WHERE  `id` = 32701 [ RunTime:0.000393s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32701 , '魔盒[251402327014]收益3天' , 298.4058911 , 6939.51383064 , 7237.91972174 , 1529510461 , 5) [ RunTime:0.000409s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 298.4058911 , `total` = 748.12244168 , `balance_day` = 3 , `last_time` = 1529510461  WHERE  `id` = 57806 [ RunTime:0.000350s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32705 LIMIT 1 [ RunTime:0.000707s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 7329.83774433  WHERE  `id` = 32705 [ RunTime:0.000438s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32705 , '魔盒[377057327051]收益2天' , 0.4202327 , 7329.41751163 , 7329.83774433 , 1529510461 , 5) [ RunTime:0.000442s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 0.4202327 , `total` = 0.64857252 , `balance_day` = 2 , `last_time` = 1529510461  WHERE  `id` = 57810 [ RunTime:0.000379s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32705 LIMIT 1 [ RunTime:0.000543s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 7330.25792983  WHERE  `id` = 32705 [ RunTime:0.000373s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32705 , '魔盒[385172327051]收益2天' , 0.4201855 , 7329.83774433 , 7330.25792983 , 1529510461 , 5) [ RunTime:0.000390s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 0.4201855 , `total` = 0.60935731 , `balance_day` = 2 , `last_time` = 1529510461  WHERE  `id` = 57811 [ RunTime:0.000393s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32706 LIMIT 1 [ RunTime:0.000698s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 0.23447596  WHERE  `id` = 32706 [ RunTime:0.000465s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32706 , '魔盒[462264327061]收益1天' , 0.23447596 , 0 , 0.23447596 , 1529510461 , 5) [ RunTime:0.000466s ]
+[ 2018-06-21T00:01:01+08:00 ][ sql ] [ SQL ] UPDATE `user_product`  SET `yestoday` = 0.23447596 , `total` = 0.23447596 , `balance_day` = 1 , `last_time` = 1529510461  WHERE  `id` = 57812 [ RunTime:0.000387s ]
+[ 2018-06-21T01:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T01:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001565s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000490s ]
+[ 2018-06-21T01:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000484s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000965s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.001149s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000539s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000377s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000289s ]
+[ 2018-06-21T01:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000304s ]
+[ 2018-06-21T02:00:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T02:00:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001015s ]
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] SELECT SUM(`charge_number`) AS tp_sum FROM `orders` WHERE  `status` = 4 LIMIT 1 [ RunTime:0.000415s ]
+[ 2018-06-21T02:00:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000983s ]
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `user` WHERE  `level` > 1 [ RunTime:0.000421s ]
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] UPDATE `user`  SET `magic` = 7237.99769174  WHERE  `id` = 32701 [ RunTime:0.000364s ]
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.000816s ]
+[ 2018-06-21T02:00:01+08:00 ][ sql ] [ SQL ] INSERT INTO `user_magic_log` (`user_id` , `remark` , `magic` , `old` , `new` , `create_time` , `types`) VALUES (32701 , '全网联盟分红' , 0.07797 , 7237.91972174 , 7237.99769174 , 1529517601 , 6) [ RunTime:0.000477s ]
+[ 2018-06-21T02:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T02:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001157s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000417s ]
+[ 2018-06-21T02:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000251s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000294s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000315s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000259s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000265s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000251s ]
+[ 2018-06-21T02:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000263s ]
+[ 2018-06-21T03:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T03:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001126s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000398s ]
+[ 2018-06-21T03:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000331s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000328s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000327s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000237s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000268s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000261s ]
+[ 2018-06-21T03:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000270s ]
+[ 2018-06-21T04:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T04:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001235s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000407s ]
+[ 2018-06-21T04:01:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000271s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000388s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000315s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000237s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000302s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000251s ]
+[ 2018-06-21T04:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000264s ]
+[ 2018-06-21T05:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T05:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001449s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000495s ]
+[ 2018-06-21T05:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000585s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000457s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000405s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000290s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000324s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000298s ]
+[ 2018-06-21T05:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000319s ]
+[ 2018-06-21T06:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T06:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001200s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000398s ]
+[ 2018-06-21T06:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000385s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000395s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000411s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000239s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000309s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000624s ]
+[ 2018-06-21T06:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000265s ]
+[ 2018-06-21T07:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T07:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001276s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000455s ]
+[ 2018-06-21T07:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000417s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000427s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000344s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000298s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000270s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000319s ]
+[ 2018-06-21T07:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000254s ]
+[ 2018-06-21T08:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T08:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001328s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000416s ]
+[ 2018-06-21T08:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000298s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000307s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000346s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000259s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000269s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000246s ]
+[ 2018-06-21T08:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000264s ]
+[ 2018-06-21T09:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T09:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001214s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000414s ]
+[ 2018-06-21T09:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000541s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000339s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000342s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000314s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000258s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000287s ]
+[ 2018-06-21T09:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000344s ]
+[ 2018-06-21T10:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T10:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001403s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000493s ]
+[ 2018-06-21T10:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.001208s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `key`,`value` FROM `config` [ RunTime:0.000425s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000365s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32705,32706) [ RunTime:0.000401s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701  AND `level` = 2 LIMIT 1 [ RunTime:0.000414s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000313s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000322s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000277s ]
+[ 2018-06-21T10:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000303s ]
+[ 2018-06-21T11:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T11:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001111s ]
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000418s ]
+[ 2018-06-21T11:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000403s ]
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000333s ]
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000234s ]
+[ 2018-06-21T11:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000279s ]
+[ 2018-06-21T12:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T12:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001201s ]
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000417s ]
+[ 2018-06-21T12:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000615s ]
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000321s ]
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000360s ]
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000333s ]
+[ 2018-06-21T12:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000271s ]
+[ 2018-06-21T13:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T13:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002939s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001883s ]
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000574s ]
+[ 2018-06-21T13:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000300s ]
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000245s ]
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000294s ]
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ 2018-06-21T13:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000273s ]
+[ 2018-06-21T14:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T14:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001156s ]
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000423s ]
+[ 2018-06-21T14:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000319s ]
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000333s ]
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000320s ]
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000486s ]
+[ 2018-06-21T14:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000443s ]
+[ 2018-06-21T15:01:02+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T15:01:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001783s ]
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000587s ]
+[ 2018-06-21T15:01:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000369s ]
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000292s ]
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32705 LIMIT 1 [ RunTime:0.000420s ]
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000236s ]
+[ 2018-06-21T15:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32706 LIMIT 1 [ RunTime:0.000342s ]
+[ 2018-06-21T16:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T16:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T16:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T16:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001575s ]
+[ 2018-06-21T16:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000531s ]
+[ 2018-06-21T17:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T17:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T17:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T17:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001587s ]
+[ 2018-06-21T17:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000438s ]
+[ 2018-06-21T18:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T18:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001572s ]
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000469s ]
+[ 2018-06-21T18:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713) [ RunTime:0.000477s ]
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000335s ]
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000243s ]
+[ 2018-06-21T18:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.000257s ]
+[ 2018-06-21T19:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T19:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001614s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000532s ]
+[ 2018-06-21T19:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713) [ RunTime:0.000759s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000400s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000307s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.000336s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000268s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32713 LIMIT 1 [ RunTime:0.000303s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000319s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32714 LIMIT 1 [ RunTime:0.000480s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000437s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32715 LIMIT 1 [ RunTime:0.000461s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000263s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32716 LIMIT 1 [ RunTime:0.000296s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000335s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32717 LIMIT 1 [ RunTime:0.000512s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000549s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32718 LIMIT 1 [ RunTime:0.000351s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.001220s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32719 LIMIT 1 [ RunTime:0.000402s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000395s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32720 LIMIT 1 [ RunTime:0.000921s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000385s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32721 LIMIT 1 [ RunTime:0.000421s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000445s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32722 LIMIT 1 [ RunTime:0.001551s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000521s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32723 LIMIT 1 [ RunTime:0.000481s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000591s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32724 LIMIT 1 [ RunTime:0.000446s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000873s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32725 LIMIT 1 [ RunTime:0.000510s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000317s ]
+[ 2018-06-21T19:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32726 LIMIT 1 [ RunTime:0.000282s ]
+[ 2018-06-21T20:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T20:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001143s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000448s ]
+[ 2018-06-21T20:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000342s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713,32728,32729,32727) [ RunTime:0.000466s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000298s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32728,32729) [ RunTime:0.000300s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.001239s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32727) [ RunTime:0.000453s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32713 LIMIT 1 [ RunTime:0.000381s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000361s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32714 LIMIT 1 [ RunTime:0.000427s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000299s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32715 LIMIT 1 [ RunTime:0.000328s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000234s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32716 LIMIT 1 [ RunTime:0.000266s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000328s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32717 LIMIT 1 [ RunTime:0.000270s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000293s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32718 LIMIT 1 [ RunTime:0.000373s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000337s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32719 LIMIT 1 [ RunTime:0.000395s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000264s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32720 LIMIT 1 [ RunTime:0.000289s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000229s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32721 LIMIT 1 [ RunTime:0.000256s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000275s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32722 LIMIT 1 [ RunTime:0.000258s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000240s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32723 LIMIT 1 [ RunTime:0.000346s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000339s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32724 LIMIT 1 [ RunTime:0.000346s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000266s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32725 LIMIT 1 [ RunTime:0.000295s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000269s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32726 LIMIT 1 [ RunTime:0.000265s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000305s ]
+[ 2018-06-21T20:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32728 LIMIT 1 [ RunTime:0.000285s ]
+[ 2018-06-21T21:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T21:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002016s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000856s ]
+[ 2018-06-21T21:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000779s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713,32728,32729,32727,32730) [ RunTime:0.000392s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000390s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32728,32729) [ RunTime:0.000368s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.000501s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32727,32730) [ RunTime:0.000412s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32713 LIMIT 1 [ RunTime:0.000384s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000355s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32714 LIMIT 1 [ RunTime:0.000350s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000349s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32715 LIMIT 1 [ RunTime:0.000379s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000347s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32716 LIMIT 1 [ RunTime:0.000398s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000229s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32717 LIMIT 1 [ RunTime:0.000263s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000244s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32718 LIMIT 1 [ RunTime:0.000303s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000314s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32719 LIMIT 1 [ RunTime:0.000288s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000252s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32720 LIMIT 1 [ RunTime:0.000302s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000267s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32721 LIMIT 1 [ RunTime:0.000283s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000307s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32722 LIMIT 1 [ RunTime:0.000336s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000276s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32723 LIMIT 1 [ RunTime:0.000307s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000282s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32724 LIMIT 1 [ RunTime:0.000286s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000370s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32725 LIMIT 1 [ RunTime:0.000289s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000254s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32726 LIMIT 1 [ RunTime:0.000280s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000256s ]
+[ 2018-06-21T21:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32728 LIMIT 1 [ RunTime:0.000260s ]
+[ 2018-06-21T22:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T22:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001212s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000422s ]
+[ 2018-06-21T22:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000409s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713,32728,32729,32727,32730) [ RunTime:0.000351s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000418s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32728,32729) [ RunTime:0.000341s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.000397s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32727,32730) [ RunTime:0.000374s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32713 LIMIT 1 [ RunTime:0.000340s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000325s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32714 LIMIT 1 [ RunTime:0.000456s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000307s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32715 LIMIT 1 [ RunTime:0.000354s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000333s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32716 LIMIT 1 [ RunTime:0.000346s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000250s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32717 LIMIT 1 [ RunTime:0.000254s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32718 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32719 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000225s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32720 LIMIT 1 [ RunTime:0.000333s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32721 LIMIT 1 [ RunTime:0.000261s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000224s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32722 LIMIT 1 [ RunTime:0.000295s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000301s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32723 LIMIT 1 [ RunTime:0.000254s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000315s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32724 LIMIT 1 [ RunTime:0.000313s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000225s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32725 LIMIT 1 [ RunTime:0.000251s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000230s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32726 LIMIT 1 [ RunTime:0.000322s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000242s ]
+[ 2018-06-21T22:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32728 LIMIT 1 [ RunTime:0.000257s ]
+[ 2018-06-21T23:01:01+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-21T23:01:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001176s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000432s ]
+[ 2018-06-21T23:01:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`pid` FROM `user` [ RunTime:0.000513s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32712,32713,32728,32729,32731,32727,32730) [ RunTime:0.000414s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32711 LIMIT 1 [ RunTime:0.000400s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32728,32729,32731) [ RunTime:0.000401s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32712 LIMIT 1 [ RunTime:0.000368s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32727,32730) [ RunTime:0.000395s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32713 LIMIT 1 [ RunTime:0.000373s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000341s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32714 LIMIT 1 [ RunTime:0.000352s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000327s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32715 LIMIT 1 [ RunTime:0.000445s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000382s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32716 LIMIT 1 [ RunTime:0.000349s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000319s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32717 LIMIT 1 [ RunTime:0.000404s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000536s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32718 LIMIT 1 [ RunTime:0.000307s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000244s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32719 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000238s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32720 LIMIT 1 [ RunTime:0.000255s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000243s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32721 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000235s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32722 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000229s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32723 LIMIT 1 [ RunTime:0.000253s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000222s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32724 LIMIT 1 [ RunTime:0.000250s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000340s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32725 LIMIT 1 [ RunTime:0.000455s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000295s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32726 LIMIT 1 [ RunTime:0.000346s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000335s ]
+[ 2018-06-21T23:01:01+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32728 LIMIT 1 [ RunTime:0.000353s ]

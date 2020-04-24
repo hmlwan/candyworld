@@ -1,0 +1,2030 @@
+---------------------------------------------------------------
+[ 2018-06-26T23:53:42+08:00 ] 113.57.245.111 GET /index/member/magicbox.html
+[ info ] www.wscorps.cn/index/member/magicbox.html [运行时间：0.036271s][吞吐率：27.57req/s] [内存消耗：2,590.38kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32809 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:53:43+08:00 ] 113.57.245.111 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.037649s][吞吐率：26.56req/s] [内存消耗：2,640.06kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/magicbox.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32809 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32809 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:53:45+08:00 ] 113.57.183.110 GET /
+[ info ] www.wscorps.cn/ [运行时间：0.037179s][吞吐率：26.90req/s] [内存消耗：2,682.09kb] [文件加载：86]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:53:48+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.040834s][吞吐率：24.49req/s] [内存消耗：2,640.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:53:51+08:00 ] 113.57.183.110 GET /index/member/magicbox.html
+[ info ] www.wscorps.cn/index/member/magicbox.html [运行时间：0.036009s][吞吐率：27.77req/s] [内存消耗：2,590.41kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32883 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:15+08:00 ] 113.57.183.110 GET /
+[ info ] www.wscorps.cn/ [运行时间：0.041961s][吞吐率：23.83req/s] [内存消耗：2,582.16kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:17+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.039670s][吞吐率：25.21req/s] [内存消耗：2,640.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:19+08:00 ] 113.57.183.110 GET /index/member/magicbox.html
+[ info ] www.wscorps.cn/index/member/magicbox.html [运行时间：0.036084s][吞吐率：27.71req/s] [内存消耗：2,590.41kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32883 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:29+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.062717s][吞吐率：15.94req/s] [内存消耗：2,640.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001755s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:32+08:00 ] 113.57.183.110 GET /index/member/magicloglist.html
+[ info ] www.wscorps.cn/index/member/magicloglist.html [运行时间：0.025346s][吞吐率：39.45req/s] [内存消耗：1,737.59kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicloglist.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T23:54:32+08:00 ] 113.57.183.110 GET /index/member/magicloglist.html?type=1&page=1&limit=20
+[ info ] www.wscorps.cn/index/member/magicloglist.html?type=1&page=1&limit=20 [运行时间：0.037670s][吞吐率：26.55req/s] [内存消耗：2,583.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/magicloglist.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_magic_log` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `user_magic_log` WHERE  `user_id` = 32883  AND `magic` > 0 ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:33+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.039361s][吞吐率：25.41req/s] [内存消耗：2,640.27kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:34+08:00 ] 113.57.183.110 GET /index/trade/index.html
+[ info ] www.wscorps.cn/index/trade/index.html [运行时间：0.040824s][吞吐率：24.50req/s] [内存消耗：2,645.05kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=1 AND status in (2,3))
+OR (target_user_id = 32883 AND types=2 AND status in (2,3)) [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=2 AND status in (2,3))
+OR (target_user_id = 32883 AND types=1 AND status in (2,3)) [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:36+08:00 ] 113.57.183.110 GET /index/member/login.html
+[ info ] www.wscorps.cn/index/member/login.html [运行时间：0.025987s][吞吐率：38.48req/s] [内存消耗：1,734.60kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T23:54:50+08:00 ] 113.57.183.110 POST /index/member/login.html
+[ info ] www.wscorps.cn/index/member/login.html [运行时间：0.034007s][吞吐率：29.41req/s] [内存消耗：2,599.53kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.wscorps.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+)
+[ info ] [ PARAM ] array (
+  'password' => '020289',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:51+08:00 ] 113.57.183.110 GET /index/trade/index.html
+[ info ] www.wscorps.cn/index/trade/index.html [运行时间：0.038260s][吞吐率：26.14req/s] [内存消耗：2,645.05kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=1 AND status in (2,3))
+OR (target_user_id = 32883 AND types=2 AND status in (2,3)) [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=2 AND status in (2,3))
+OR (target_user_id = 32883 AND types=1 AND status in (2,3)) [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:53+08:00 ] 113.57.183.110 GET /index/trade/buy.html
+[ info ] www.wscorps.cn/index/trade/buy.html [运行时间：0.040164s][吞吐率：24.90req/s] [内存消耗：2,645.07kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/buy.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32883  AND `status` = 1  AND `types` = 1 LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:54+08:00 ] 113.57.183.110 GET /index/trade/sale.html
+[ info ] www.wscorps.cn/index/trade/sale.html [运行时间：0.041652s][吞吐率：24.01req/s] [内存消耗：2,645.12kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/buy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/sale.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32883  AND `status` = 1  AND `types` = 2 LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:54+08:00 ] 113.57.183.110 GET /index/trade/index.html
+[ info ] www.wscorps.cn/index/trade/index.html [运行时间：0.042936s][吞吐率：23.29req/s] [内存消耗：2,645.05kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/sale.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=1 AND status in (2,3))
+OR (target_user_id = 32883 AND types=2 AND status in (2,3)) [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=2 AND status in (2,3))
+OR (target_user_id = 32883 AND types=1 AND status in (2,3)) [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:55+08:00 ] 113.57.183.110 GET /index/trade/finish.html
+[ info ] www.wscorps.cn/index/trade/finish.html [运行时间：0.053641s][吞吐率：18.64req/s] [内存消耗：2,642.38kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/finish.html [ array (
+  0 => 'list',
+  1 => 'ownId',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND status = 4)
+OR (target_user_id = 32883  AND status = 4) ORDER BY finish_time desc [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:56+08:00 ] 113.57.183.110 GET /index/trade/index.html
+[ info ] www.wscorps.cn/index/trade/index.html [运行时间：0.042203s][吞吐率：23.70req/s] [内存消耗：2,645.05kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/sale.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=1 AND status in (2,3))
+OR (target_user_id = 32883 AND types=2 AND status in (2,3)) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=2 AND status in (2,3))
+OR (target_user_id = 32883 AND types=1 AND status in (2,3)) [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:57+08:00 ] 113.57.183.110 GET /index/trade/sale.html
+[ info ] www.wscorps.cn/index/trade/sale.html [运行时间：0.042533s][吞吐率：23.51req/s] [内存消耗：2,645.12kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/buy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/sale.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32883  AND `status` = 1  AND `types` = 2 LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:57+08:00 ] 113.57.183.110 GET /index/trade/buy.html
+[ info ] www.wscorps.cn/index/trade/buy.html [运行时间：0.040566s][吞吐率：24.65req/s] [内存消耗：2,645.07kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/buy.html [ array (
+  0 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `user_id` = 32883  AND `status` = 1  AND `types` = 1 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:54:59+08:00 ] 113.57.183.110 GET /index/trade/index.html
+[ info ] www.wscorps.cn/index/trade/index.html [运行时间：0.051559s][吞吐率：19.40req/s] [内存消耗：2,645.05kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/trade/index.html [ array (
+  0 => 'buy',
+  1 => 'sale',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=1 AND status in (2,3))
+OR (target_user_id = 32883 AND types=2 AND status in (2,3)) [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * from orders WHERE (user_id = 32883 AND types=2 AND status in (2,3))
+OR (target_user_id = 32883 AND types=1 AND status in (2,3)) [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:55:00+08:00 ] 113.57.183.110 GET /index/member/login.html
+[ info ] www.wscorps.cn/index/member/login.html [运行时间：0.025656s][吞吐率：38.98req/s] [内存消耗：1,734.60kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/trade/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T23:55:00+08:00 ] 113.57.183.110 GET /index/member/index.html
+[ info ] www.wscorps.cn/index/member/index.html [运行时间：0.065682s][吞吐率：15.22req/s] [内存消耗：2,640.51kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:50+08:00 ] 113.57.245.111 GET /index/market/index
+[ info ] www.wscorps.cn/index/market/index [运行时间：0.044430s][吞吐率：22.51req/s] [内存消耗：2,680.40kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/market/index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `create_time` >= 1529942270 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `create_time` >= 1529942270 LIMIT 1 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:50+08:00 ] 113.57.245.111 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] www.wscorps.cn/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.037209s][吞吐率：26.88req/s] [内存消耗：2,617.88kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/market/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:51+08:00 ] 113.57.245.111 GET /index/member/login.html
+[ info ] www.wscorps.cn/index/member/login.html [运行时间：0.026988s][吞吐率：37.05req/s] [内存消耗：1,734.51kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/market/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T23:57:53+08:00 ] 113.57.245.111 GET /index/member/index.html
+[ info ] www.wscorps.cn/index/member/index.html [运行时间：0.038427s][吞吐率：26.02req/s] [内存消耗：2,640.30kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/login.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32809 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32809 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:55+08:00 ] 113.57.245.111 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.051108s][吞吐率：19.57req/s] [内存消耗：2,640.24kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32809 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32809 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:57+08:00 ] 113.57.245.111 GET /index/member/union.html
+[ info ] www.wscorps.cn/index/member/union.html [运行时间：0.073106s][吞吐率：13.68req/s] [内存消耗：2,751.72kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/union.html [ array (
+  0 => 'list',
+  1 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `pid` = 32809 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32813,32817,32823,32834,32845,32850,32852,32855,32858,32859,32860,32865,32869,32872,32874,32875,32876,32879,32882,32883,32885,32886,32880) [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32813,32817,32823,32834,32845,32850,32852,32855,32858,32859,32860,32865,32869,32872,32874,32875,32876,32879,32882,32883,32885,32886,32880) [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32880) [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32880) [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:57:57+08:00 ] 113.57.245.111 GET /static/image/headphoto.jpg
+[ info ] www.wscorps.cn/static/image/headphoto.jpg [运行时间：0.014690s][吞吐率：68.07req/s] [内存消耗：1,015.91kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/union.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T23:58:14+08:00 ] 113.57.245.111 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.044718s][吞吐率：22.36req/s] [内存消耗：2,640.24kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.wscorps.cn/index/member/union.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5ptk6if0kedd2ellikhnq4ft76',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32809 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32809 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32809 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:29+08:00 ] 113.57.183.110 GET /
+[ info ] www.wscorps.cn/ [运行时间：0.043188s][吞吐率：23.15req/s] [内存消耗：2,582.34kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:31+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.038179s][吞吐率：26.19req/s] [内存消耗：2,640.45kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:33+08:00 ] 113.57.183.110 GET /index/member/magicbox.html
+[ info ] www.wscorps.cn/index/member/magicbox.html [运行时间：0.039778s][吞吐率：25.14req/s] [内存消耗：2,590.59kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32883 [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:39+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.041016s][吞吐率：24.38req/s] [内存消耗：2,640.45kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:40+08:00 ] 113.57.183.110 GET /index/product/index
+[ info ] www.wscorps.cn/index/product/index [运行时间：0.036954s][吞吐率：27.06req/s] [内存消耗：2,601.76kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/product/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:43+08:00 ] 113.57.183.110 POST /index/product/recharge
+[ info ] www.wscorps.cn/index/product/recharge [运行时间：0.042085s][吞吐率：23.76req/s] [内存消耗：2,616.98kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/product/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.wscorps.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '19',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+)
+[ info ] [ PARAM ] array (
+  'product_id' => '1',
+  'type' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `config` WHERE  `key` = 'rules_v1_product' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `user_product` WHERE  `user_id` = 32883  AND `product_id` = 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:54+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.037813s][吞吐率：26.45req/s] [内存消耗：2,640.45kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:58:55+08:00 ] 113.57.183.110 GET /index/member/magicbox.html
+[ info ] www.wscorps.cn/index/member/magicbox.html [运行时间：0.035008s][吞吐率：28.56req/s] [内存消耗：2,590.59kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/magicbox.html [ array (
+  0 => 'magicList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_product` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT `up`.`buy_time`,`up`.`types`,`p`.*,`up`.`status` FROM `user_product` `up` LEFT JOIN `product` `p` ON `up`.`product_id`=`p`.`id` WHERE  `user_id` = 32883 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:16+08:00 ] 113.57.183.110 GET /index/member/index
+[ info ] www.wscorps.cn/index/member/index [运行时间：0.048017s][吞吐率：20.83req/s] [内存消耗：2,640.45kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/member/memberinfo.html [ array (
+  0 => 'list',
+  1 => 'freeze',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE user_id=32883 AND types = 2 AND status IN (1,2,3) LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT sum(`number`) as numbers, sum(`charge_number`) as charge_number FROM orders WHERE target_user_id=32883 AND types = 1  AND status IN (2,3) LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:17+08:00 ] 113.57.183.110 GET /index/index/index
+[ info ] www.wscorps.cn/index/index/index [运行时间：0.036273s][吞吐率：27.57req/s] [内存消耗：2,585.72kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `category` = 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:18+08:00 ] 113.57.183.110 GET /index/product/index
+[ info ] www.wscorps.cn/index/product/index [运行时间：0.039490s][吞吐率：25.32req/s] [内存消耗：2,601.76kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/product/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:36+08:00 ] 113.57.183.110 GET /index/market/index
+[ info ] www.wscorps.cn/index/market/index [运行时间：0.046144s][吞吐率：21.67req/s] [内存消耗：2,680.61kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/market/index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `create_time` >= 1529942376 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `create_time` >= 1529942376 LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:37+08:00 ] 113.57.183.110 GET /index/market/index
+[ info ] www.wscorps.cn/index/market/index [运行时间：0.041505s][吞吐率：24.09req/s] [内存消耗：2,680.61kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.sunq.djkj',
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/market/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/www.wscorps.cn/application/index/view/market/index.html [ array (
+  0 => 'prices',
+  1 => 'market_price_rate',
+  2 => 'number_min',
+  3 => 'number_max',
+  4 => 'magic',
+  5 => 'market_number',
+  6 => 'market_total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001123s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT `magic` FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `create_time` >= 1529942377 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT SUM(`number`) AS tp_sum FROM `orders` WHERE  `create_time` >= 1529942377 LIMIT 1 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2018-06-26T23:59:38+08:00 ] 113.57.183.110 GET /index/market/buylist.html?page=1&limit=10&mobile=
+[ info ] www.wscorps.cn/index/market/buylist.html?page=1&limit=10&mobile= [运行时间：0.040265s][吞吐率：24.84req/s] [内存消耗：2,601.35kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kvb76ob3kjb8tue1a7gcgcrvc5',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wscorps.cn/index/market/index',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55L Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.wscorps.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'mobile' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 32883 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT o.number,o.user_id,o.price,o.id,o.total_price,o.total_price_china,u.nick_name,u.avatar,u.comment_rate,
+(SELECT count(*) FROM orders where user_id = o.user_id and status = 4 limit 1) as finish
+FROM orders as o LEFT JOIN user as u ON o.user_id=u.id WHERE o.status =1 AND
+o.types=1 AND user_id<>32883 ORDER BY o.create_time DESC limit 0,10 [ RunTime:0.000993s ]

@@ -1,0 +1,11 @@
+[ 2018-06-17T23:01:02+08:00 ][ info ] [ LANG ] /www/wwwroot/www.wscorps.cn/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-17T23:01:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=magic;charset=utf8
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001272s ]
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`level` FROM `user` WHERE  `is_certification` = 1  AND `status` = 1 [ RunTime:0.000515s ]
+[ 2018-06-17T23:01:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN (32702) [ RunTime:0.000674s ]
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32701 LIMIT 1 [ RunTime:0.000401s ]
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SELECT `id`,`product_rate` FROM `user` WHERE  `id` IN ('') [ RunTime:0.000641s ]
+[ 2018-06-17T23:01:02+08:00 ][ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `pid` = 32702 LIMIT 1 [ RunTime:0.000370s ]
